@@ -1,44 +1,9 @@
-<!-- <div ng-controller='userController'>
-<h1>Welcome</h1>
-		
-		<form ng-submit="create(user)">
-			<fieldset>
-				<legend>Register</legend>
-				<p>
-					<label for="name">Name:</label>
-					<input type="text" name="name" ng-model='user.name'>
-				</p>
-				<p>
-					<label for="email">Email:</label>
-					<input type="text" name="email" ng-model='user.email'>
-				</p>
-				<p>
-					<label for="passsword">Password:</label>
-					<input type="password" name="password" ng-model='user.password'>
-				</p>
-
-				<p>
-					<label for="confirm_password">Confirm password:</label>
-					<input type="password" name="confirm_password" ng-model='user.confirm_password'>
-				</p>
-				<p>
-					<label for="dob">Date of Birth:</label>
-					<input type="date" name="dob" max="{{minAge | date:'yyyy-MM-dd'}}" ng-model='user.dob'</input>
-				</p>
-				<p>
-					<button>Continue</button>
-				</p>
-				
-			</fieldset>
-		</form>
-	</div> -->
-	<!-- container  testing -->
-	<div class="row" ng-controller='userController'>
+<div class="row" ng-controller='userController'>
 
 		<form class="form-signin pull-right" ng-submit="create(user)">
 			<!-- <h2 class="form-signin-heading">Register</h2> -->
 			<label for="inputName" class="sr-only">Name</label>
-			<input type="email" id="inputName" class="form-control" placeholder="Name" required="" autofocus="" ng-model='user.name'>
+			<input type="text" id="inputName" class="form-control" placeholder="Name" required="" autofocus="" ng-model='user.name'>
 
 			<label for="inputEmail" class="sr-only">Email address</label>
 			<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" ng-model='user.email'>
