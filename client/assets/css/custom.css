@@ -1,35 +1,5 @@
-/* Theme Name: The Project - Responsive Website Template
-Author:HtmlCoder
-Author URI:http://www.htmlcoder.me
-Author e-mail:htmlcoder.me@gmail.com
-Version:1.2.0
-Created:December 2014
-License URI:http://support.wrapbootstrap.com/
-File Description: Place here your custom CSS styles
-*/
-* {
-	margin: 0;
-	padding: 0;
-}
-.pv-40{
-	padding: 0;
-	margin: 0;
-}
-
-.light-gray-bg{
-	background-color: transparent;
-}
-.light-gray-bg.form-block h2, 
-.light-gray-bg.form-block a, 
-.light-gray-bg.form-block a:hover, 
-.light-gray-bg.form-block{
-	color: white;
-}
-.text-muted{
-	color: white;
-}
-h3{
-	font-size: 45px;
+body{
+	color:white;
 }
 .video-wrap{
 position: absolute;
@@ -54,11 +24,37 @@ video{
 	transform: translate(-50%, -100%); 
 	visibility: visible; 
 	opacity: 1; 
-	width: 1243px; 
+	width: 100%; 
 	height: auto;
 }
+.form-signin {
+    max-width: 330px;
+    padding: 30px;
+    margin-right: 30px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
 
-.dark-translucent-bg, .dark-translucent-bg h1, .dark-translucent-bg h2, .dark-translucent-bg h3, .dark-translucent-bg h4, .dark-translucent-bg h5, .dark-translucent-bg h6{
-	color:black;
+}
+.form-signin h2{
+	text-align: center;
 }
 
+a{
+	color: white;
+}
+a:hover{
+color: yellow;
+text-decoration: none;
+}
+form-signin-heading{
+	text-align: center;
+}
+.form-signin input, button{
+	background-color: #000f;
+    opacity: 0.8;
+    filter: Alpha(opacity=50); /* IE8 and earlier */
+}
+.form-signin input{
+	margin-bottom: 5px;
+}
