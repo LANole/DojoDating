@@ -1,0 +1,261 @@
+<div ng-controller='userController'>
+	<div class="pbox">
+		
+		<h1>A little about yourself.</h1>
+		<fieldset>
+			<legend>Yourself</legend>
+			<form id='hobbies' ng-submit="update(user)">
+				<label>Looking for: 
+					<select ng-model="user.looking">
+						<option value="Man">Man</option>
+						<option value="Woman">Woman</option>					
+					</select>
+				</label>
+				<label>Relationship type: 
+					<select ng-model="user.relationship">
+						<option value="JustFriends">Just Friends</option>
+						<option value="Casual">Casual</option>
+						<option value="DojoCodingBuddy">Dojo Coding Buddy</option>
+						<option value="Serious">Serious</option>
+						<option value="Legal">Is that legal?</option>
+					</select>
+				</label>
+				<label>Height: 
+					<select ng-model="user.height">
+						<option value="4.0">"Less than 5'</option>
+						<option value="5.0">5'0''</option>
+						<option value="5.1">5'1''</option>
+						<option value="5.2">5'2''</option>
+						<option value="5.3">5'3''</option>
+						<option value="5.4">5'4''</option>
+						<option value="5.5">5'5''</option>
+						<option value="5.6">5'6''</option>
+						<option value="5.7">5'7''</option>
+						<option value="5.8">5'8''</option>
+						<option value="5.9">5'9''</option>
+						<option value="5.10">5'10''</option>
+						<option value="5.11">5'11''</option>
+						<option value="6.0">6'0''</option>
+						<option value="6.1">6'1''</option>
+						<option value="6.2">6'2''</option>
+						<option value="6.3">6'3''</option>
+						<option value="6.4">6'4''</option>
+						<option value="6.5">6'5''</option>
+						<option value="6.6">6'6''</option>
+						<option value="6.7">6'7''</option>
+						<option value="6.8">6'8''</option>
+						<option value="6.9">6'9''</option>
+						<option value="6.10">6'10''</option>
+						<option value="6.11">6'11''</option>
+						<option value="7">Greater than 7'</option>						
+					</select>
+				</label>
+				<label>Weight: 
+					<select ng-model="user.weight">
+						<option value="100">"Less than 100lbs'</option>
+						<option value="120">120lbs</option>
+						<option value="130">130lbs</option>
+						<option value="140">140lbs</option>
+						<option value="150">150lbs</option>
+						<option value="160">160lbs</option>
+						<option value="170">170lbs</option>
+						<option value="180">180lbs</option>
+						<option value="190">190lbs</option>
+						<option value="200">200lbs</option>
+						<option value="210">210lbs</option>
+						<option value="220">220lbs</option>
+						<option value="230">230lbs</option>
+						<option value="240">240lbs</option>
+						<option value="250">250lbs</option>
+						<option value="260">260lbs</option>
+						<option value="270">270lbs</option>
+						<option value="280">280lbs</option>
+						<option value="290">290lbs</option>
+						<option value="300">300lbs</option>
+						<option value="301">Greater than 300lbs</option>				
+					</select>
+				</label>
+				<label>Body Type: 
+					<select ng-model="user.body">
+						<option value="Slim">Slim</option>
+						<option value="Athletic">Athletic</option>
+						<option value="Average">Average</option>
+						<option value="Dojo">Dojo Pot Belly</option>						
+					</select>
+				</label>				
+				<label>Hair Color:
+					<select ng-model="user.hair">
+						<option value="Blonde">Blonde</option>
+						<option value="Brown">Brown</option>
+						<option value="Black">Black</option>
+						<option value="Brunette">Brunette</option>
+						<option value="Red">Red</option>
+						<option value="None">None</option>						
+					</select> 
+				</label>				
+				<label>Eye Color: 
+					<select ng-model="user.eye">
+						<option value="Blue">Blue</option>
+						<option value="Brown">Brown</option>
+						<option value="Green">Green</option>
+						<option value="Hazel">Hazel</option>
+						<option value="Red">Dojo Red Eye</option>
+					</select>
+				</label>				
+				<label>Smoke: 
+					<select ng-model="user.smoke">
+						<option value="Yes">Yes</option>
+						<option value="Occasional">Occasional</option>
+						<option value="No">No</option>						
+					</select>
+				</label>
+				<label>Drink: 
+					<select ng-model="user.drink">
+						<option value="Yes">Yes</option>
+						<option value="Occasional">Occasional</option>
+						<option value="No">No</option>						
+					</select>
+				</label>
+				<label>City: 
+					<select ng-model="user.city">
+						<option value="city">Find a List</option>						
+					</select>
+				</label>
+				<label>State: 
+					<select ng-model="user.state">
+						<option value="AL">Alabama</option>
+						<option value="AK">Alaska</option>
+						<option value="AZ">Arizona</option>
+						<option value="AR">Arkansas</option>
+						<option value="CA">California</option>
+						<option value="CO">Colorado</option>
+						<option value="CT">Connecticut</option>
+						<option value="DE">Delaware</option>
+						<option value="DC">District Of Columbia</option>
+						<option value="FL">Florida</option>
+						<option value="GA">Georgia</option>
+						<option value="HI">Hawaii</option>
+						<option value="ID">Idaho</option>
+						<option value="IL">Illinois</option>
+						<option value="IN">Indiana</option>
+						<option value="IA">Iowa</option>
+						<option value="KS">Kansas</option>
+						<option value="KY">Kentucky</option>
+						<option value="LA">Louisiana</option>
+						<option value="ME">Maine</option>
+						<option value="MD">Maryland</option>
+						<option value="MA">Massachusetts</option>
+						<option value="MI">Michigan</option>
+						<option value="MN">Minnesota</option>
+						<option value="MS">Mississippi</option>
+						<option value="MO">Missouri</option>
+						<option value="MT">Montana</option>
+						<option value="NE">Nebraska</option>
+						<option value="NV">Nevada</option>
+						<option value="NH">New Hampshire</option>
+						<option value="NJ">New Jersey</option>
+						<option value="NM">New Mexico</option>
+						<option value="NY">New York</option>
+						<option value="NC">North Carolina</option>
+						<option value="ND">North Dakota</option>
+						<option value="OH">Ohio</option>
+						<option value="OK">Oklahoma</option>
+						<option value="OR">Oregon</option>
+						<option value="PA">Pennsylvania</option>
+						<option value="RI">Rhode Island</option>
+						<option value="SC">South Carolina</option>
+						<option value="SD">South Dakota</option>
+						<option value="TN">Tennessee</option>
+						<option value="TX">Texas</option>
+						<option value="UT">Utah</option>
+						<option value="VT">Vermont</option>
+						<option value="VA">Virginia</option>
+						<option value="WA">Washington</option>
+						<option value="WV">West Virginia</option>
+						<option value="WI">Wisconsin</option>
+						<option value="WY">Wyoming</option>						
+					</select>
+				</label>				
+			</form>
+		</fieldset>
+</div>
+
+<div class="hbox">
+		
+		<h1>Tell about your interest and preferences.</h1>
+		<fieldset>
+			<legend>Hobbies</legend>
+			<form id='hobbies' ng-submit="update(user)">
+				<label>Arts: 
+					<select ng-model="user.arts">
+						<option value="Yes">Love It</option>
+						<option value="No">Not Interested</option>						
+					</select>
+				</label>
+				<label>Auto: 
+					<select ng-model="user.auto">
+						<option value="Yes">Love It</option>
+						<option value="No">Not Interested</option>						
+					</select>
+				</label>
+				<label>Dancing: 
+					<select ng-model="user.dancing">
+						<option value="Yes">Love It</option>
+						<option value="No">Not Interested</option>						
+					</select>
+				</label>
+				<label>Education: 
+					<select ng-model="user.education">
+						<option value="Yes">Love It</option>
+						<option value="No">Not Interested</option>						
+					</select>
+				</label>
+				<label>Food: 
+					<select ng-model="user.food">
+						<option value="Yes">Love It</option>
+						<option value="No">Not Interested</option>						
+					</select>
+				</label>
+				<label>Literature: 
+					<select ng-model="user.literature">
+						<option value="Yes">Love It</option>
+						<option value="No">Not Interested</option>						
+					</select>
+				</label>
+				<label>Music: 
+					<select ng-model="user.music">
+						<option value="Yes">Love It</option>
+						<option value="No">Not Interested</option>						
+					</select>
+				</label>
+				<label>Nature: 
+					<select ng-model="user.nature">
+						<option value="Yes">Love It</option>
+						<option value="No">Not Interested</option>						
+					</select>
+				</label>				
+				<label>OutDoor Activites:
+					<select ng-model="user.outDoor">
+						<option value="Yes">Love It</option>
+						<option value="No">Not Interested</option>						
+					</select> 
+				</label>				
+				<label>Sports: 
+					<select ng-model="user.sports">
+						<option value="Yes">Love It</option>
+						<option value="No">Not Interested</option>						
+					</select>
+				</label>
+				<label>Technology: 
+					<select ng-model="user.technology">
+						<option value="Yes">Love It</option>
+						<option value="No">Not Interested</option>						
+					</select>
+				</label>
+				<p>
+					<button>Create</button>
+				</p>
+			</form>
+		</fieldset>
+	</div>
+</div>

@@ -1,4 +1,5 @@
 app.factory('UserFactory', ['$http', function($http){
+	var user = {data:[]}
 	return{
 		create:function(user, callback){
 			$http({
@@ -23,6 +24,14 @@ app.factory('UserFactory', ['$http', function($http){
 				method:"GET",
 				url:'/userLogged'
 			}).then(function(res){
+				callback(res.data);
+			})
+		},
+		update: function(callback){
+			$http({
+				method:"POST",
+				url:'/profile'
+			}).then(function(user){
 				callback(res.data);
 			})
 		}

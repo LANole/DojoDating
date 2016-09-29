@@ -13,18 +13,22 @@ app.config(function($routeProvider, $httpProvider){  //check http request from s
     //     };
     // });
     $routeProvider         
+        .when('/login',{
+            templateUrl:'/partials/login.html'
+        })
         .when('/register',{
             templateUrl:'partials/register.html',
             controller:'userController'           
         })
-        .when('/login',{
-            templateUrl:'/partials/login.html'
+        .when('/create',{
+            templateUrl:'partials/preferences.html',
+            controller:'userController'
         })
         .when('/search',{
             templateUrl:'/partials/search.html'
         })
-        .when('/userprofile/:id',{
-            templateUrl:'partials/userprofile.html'
+        .when('/profile/:id',{
+            templateUrl:'partials/profile.html'
         })
         .otherwise({
             redirectTo:'/'
