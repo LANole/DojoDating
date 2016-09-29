@@ -1,7 +1,8 @@
 body{
-	color:white;
+	
 }
 .video-wrap{
+    color:white;
 position: absolute;
 z-index: -1; 
 top: 0px; 
@@ -58,3 +59,5 @@ form-signin-heading{
 .form-signin input{
 	margin-bottom: 5px;
 }
+
+/*tabbed forms style*/
