@@ -12,10 +12,10 @@ var UserSchema = new mongoose.Schema({
  body_type: {type: String},
  hair_color: {type: String},
  eye_color: {type: String},
- smoking: {type: String },
- drinking: {type: String},
+ smoke: {type: String },
+ drink: {type: String},
  search_radius: Number,
- bio: {type: String, minlength: 150},
+ bio: {type: String, minlength: 150, maxlength:500},
  city: {type:String},
  state: {type:String},
  arts: String,
@@ -26,7 +26,7 @@ var UserSchema = new mongoose.Schema({
  literature: String,
  music: String,
  nature: String,
- activity_level: String,
+ outdoor_activites: String,
  sports: String,
  technology: String
 

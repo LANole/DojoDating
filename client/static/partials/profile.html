@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <style>
+    *{
+
+        vertical-align: top;
+        margin: 0;
+        padding: 0;
+    }
+        .grey-part{
+            width: 23%;
+            display: inline-block;
+        }
+        main{
+            width: 50%;
+            display: inline-block;
+        }
+        .shop{
+            width: 23%;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<div ng-controller='userController'>
+    <body>
+        <aside class="grey-part">
+            <p><img src="baby.png" width="50" alt="">Ishu Subedi</p>
+            <input type="text" placeholder="search">
+            <ul>
+                <li>Messages   12</li>
+                <li>Visitors    2</li>
+                <li>Matcher    6</li>
+                <li>Favorites  </li>
+            </ul>
+            <h3>Recently visited</h3>
+            <img src="faces.png" alt="">
+        </aside>
+            <main>
+                <div>
+                    <img src="baby.png" alt="">
+                    <h2>Emma Stone</h2>
+                    <p>25</p>
+                    <p>female</p>
+                    <p>Burbank, CA</p>
+                    <button>Update info</button>
+                    <img src="details.png" alt="">
+                </div>
+                <div>
+                    <p>93% match</p>
+                    <img src="icons.png" alt="">
+
+                </div>
+            </main>
+        <aside class="shop">
+            <img src="shop.png" alt="">
+        </aside>
+    </body>
+</div>
+</html>
