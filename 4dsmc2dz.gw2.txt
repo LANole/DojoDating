@@ -1,0 +1,1665 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch tom
+# Changes to be committed:
+#	new file:   .DS_Store
+#	renamed:    bootstrap/css/bootstrap-theme.css -> client/assets/bootstrap/css/bootstrap-theme.css
+#	renamed:    bootstrap/css/bootstrap-theme.css.map -> client/assets/bootstrap/css/bootstrap-theme.css.map
+#	renamed:    bootstrap/css/bootstrap-theme.min.css -> client/assets/bootstrap/css/bootstrap-theme.min.css
+#	renamed:    bootstrap/css/bootstrap-theme.min.css.map -> client/assets/bootstrap/css/bootstrap-theme.min.css.map
+#	renamed:    bootstrap/css/bootstrap.css -> client/assets/bootstrap/css/bootstrap.css
+#	renamed:    bootstrap/css/bootstrap.css.map -> client/assets/bootstrap/css/bootstrap.css.map
+#	renamed:    bootstrap/css/bootstrap.min.css -> client/assets/bootstrap/css/bootstrap.min.css
+#	renamed:    bootstrap/css/bootstrap.min.css.map -> client/assets/bootstrap/css/bootstrap.min.css.map
+#	renamed:    bootstrap/fonts/glyphicons-halflings-regular.eot -> client/assets/bootstrap/fonts/glyphicons-halflings-regular.eot
+#	renamed:    bootstrap/fonts/glyphicons-halflings-regular.svg -> client/assets/bootstrap/fonts/glyphicons-halflings-regular.svg
+#	renamed:    bootstrap/fonts/glyphicons-halflings-regular.ttf -> client/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf
+#	renamed:    bootstrap/fonts/glyphicons-halflings-regular.woff -> client/assets/bootstrap/fonts/glyphicons-halflings-regular.woff
+#	renamed:    bootstrap/fonts/glyphicons-halflings-regular.woff2 -> client/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2
+#	renamed:    bootstrap/js/bootstrap.js -> client/assets/bootstrap/js/bootstrap.js
+#	renamed:    bootstrap/js/bootstrap.min.js -> client/assets/bootstrap/js/bootstrap.min.js
+#	renamed:    bootstrap/js/npm.js -> client/assets/bootstrap/js/npm.js
+#	renamed:    css/animate.css -> client/assets/css/animate.css
+#	renamed:    css/animations.css -> client/assets/css/animations.css
+#	renamed:    css/custom.css -> client/assets/css/custom.css
+#	renamed:    css/print-invoice.css -> client/assets/css/print-invoice.css
+#	renamed:    css/skins/blue.css -> client/assets/css/skins/blue.css
+#	renamed:    css/skins/brown.css -> client/assets/css/skins/brown.css
+#	renamed:    css/skins/cool_green.css -> client/assets/css/skins/cool_green.css
+#	renamed:    css/skins/dark_cyan.css -> client/assets/css/skins/dark_cyan.css
+#	renamed:    css/skins/dark_red.css -> client/assets/css/skins/dark_red.css
+#	renamed:    css/skins/gold.css -> client/assets/css/skins/gold.css
+#	renamed:    css/skins/gray.css -> client/assets/css/skins/gray.css
+#	renamed:    css/skins/green.css -> client/assets/css/skins/green.css
+#	renamed:    css/skins/light_blue.css -> client/assets/css/skins/light_blue.css
+#	renamed:    css/skins/orange.css -> client/assets/css/skins/orange.css
+#	renamed:    css/skins/pink.css -> client/assets/css/skins/pink.css
+#	renamed:    css/skins/purple.css -> client/assets/css/skins/purple.css
+#	renamed:    css/skins/red.css -> client/assets/css/skins/red.css
+#	renamed:    css/skins/vivid_red.css -> client/assets/css/skins/vivid_red.css
+#	renamed:    css/style.css -> client/assets/css/style.css
+#	renamed:    css/style.css.map -> client/assets/css/style.css.map
+#	renamed:    fonts/font-awesome/css/font-awesome.css -> client/assets/fonts/font-awesome/css/font-awesome.css
+#	renamed:    fonts/font-awesome/css/font-awesome.min.css -> client/assets/fonts/font-awesome/css/font-awesome.min.css
+#	renamed:    fonts/font-awesome/fonts/FontAwesome.otf -> client/assets/fonts/font-awesome/fonts/FontAwesome.otf
+#	renamed:    fonts/font-awesome/fonts/fontawesome-webfont.eot -> client/assets/fonts/font-awesome/fonts/fontawesome-webfont.eot
+#	renamed:    fonts/font-awesome/fonts/fontawesome-webfont.svg -> client/assets/fonts/font-awesome/fonts/fontawesome-webfont.svg
+#	renamed:    fonts/font-awesome/fonts/fontawesome-webfont.ttf -> client/assets/fonts/font-awesome/fonts/fontawesome-webfont.ttf
+#	renamed:    fonts/font-awesome/fonts/fontawesome-webfont.woff -> client/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff
+#	renamed:    fonts/font-awesome/fonts/fontawesome-webfont.woff2 -> client/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2
+#	renamed:    fonts/font-awesome/less/animated.less -> client/assets/fonts/font-awesome/less/animated.less
+#	renamed:    fonts/font-awesome/less/bordered-pulled.less -> client/assets/fonts/font-awesome/less/bordered-pulled.less
+#	renamed:    fonts/font-awesome/less/core.less -> client/assets/fonts/font-awesome/less/core.less
+#	renamed:    fonts/font-awesome/less/fixed-width.less -> client/assets/fonts/font-awesome/less/fixed-width.less
+#	renamed:    fonts/font-awesome/less/font-awesome.less -> client/assets/fonts/font-awesome/less/font-awesome.less
+#	renamed:    fonts/font-awesome/less/icons.less -> client/assets/fonts/font-awesome/less/icons.less
+#	renamed:    fonts/font-awesome/less/larger.less -> client/assets/fonts/font-awesome/less/larger.less
+#	renamed:    fonts/font-awesome/less/list.less -> client/assets/fonts/font-awesome/less/list.less
+#	renamed:    fonts/font-awesome/less/mixins.less -> client/assets/fonts/font-awesome/less/mixins.less
+#	renamed:    fonts/font-awesome/less/path.less -> client/assets/fonts/font-awesome/less/path.less
+#	renamed:    fonts/font-awesome/less/rotated-flipped.less -> client/assets/fonts/font-awesome/less/rotated-flipped.less
+#	renamed:    fonts/font-awesome/less/stacked.less -> client/assets/fonts/font-awesome/less/stacked.less
+#	renamed:    fonts/font-awesome/less/variables.less -> client/assets/fonts/font-awesome/less/variables.less
+#	renamed:    fonts/font-awesome/scss/font-awesome.scss -> client/assets/fonts/font-awesome/scss/font-awesome.scss
+#	renamed:    fonts/fontello/LICENSE.txt -> client/assets/fonts/fontello/LICENSE.txt
+#	renamed:    fonts/fontello/README.txt -> client/assets/fonts/fontello/README.txt
+#	renamed:    fonts/fontello/config.json -> client/assets/fonts/fontello/config.json
+#	renamed:    fonts/fontello/css/animation.css -> client/assets/fonts/fontello/css/animation.css
+#	renamed:    fonts/fontello/css/fontello-codes.css -> client/assets/fonts/fontello/css/fontello-codes.css
+#	renamed:    fonts/fontello/css/fontello-embedded.css -> client/assets/fonts/fontello/css/fontello-embedded.css
+#	renamed:    fonts/fontello/css/fontello-ie7-codes.css -> client/assets/fonts/fontello/css/fontello-ie7-codes.css
+#	renamed:    fonts/fontello/css/fontello-ie7.css -> client/assets/fonts/fontello/css/fontello-ie7.css
+#	renamed:    fonts/fontello/css/fontello.css -> client/assets/fonts/fontello/css/fontello.css
+#	renamed:    fonts/fontello/demo.html -> client/assets/fonts/fontello/demo.html
+#	renamed:    fonts/fontello/font/fontello.eot -> client/assets/fonts/fontello/font/fontello.eot
+#	renamed:    fonts/fontello/font/fontello.svg -> client/assets/fonts/fontello/font/fontello.svg
+#	renamed:    fonts/fontello/font/fontello.ttf -> client/assets/fonts/fontello/font/fontello.ttf
+#	renamed:    fonts/fontello/font/fontello.woff -> client/assets/fonts/fontello/font/fontello.woff
+#	renamed:    images/android-icon-144x144.png -> client/assets/images/android-icon-144x144.png
+#	renamed:    images/android-icon-192x192.png -> client/assets/images/android-icon-192x192.png
+#	renamed:    images/android-icon-36x36.png -> client/assets/images/android-icon-36x36.png
+#	renamed:    images/android-icon-48x48.png -> client/assets/images/android-icon-48x48.png
+#	renamed:    images/android-icon-72x72.png -> client/assets/images/android-icon-72x72.png
+#	renamed:    images/android-icon-96x96.png -> client/assets/images/android-icon-96x96.png
+#	renamed:    images/apple-icon-114x114.png -> client/assets/images/apple-icon-114x114.png
+#	renamed:    images/apple-icon-120x120.png -> client/assets/images/apple-icon-120x120.png
+#	renamed:    images/apple-icon-144x144.png -> client/assets/images/apple-icon-144x144.png
+#	renamed:    images/apple-icon-152x152.png -> client/assets/images/apple-icon-152x152.png
+#	renamed:    images/apple-icon-180x180.png -> client/assets/images/apple-icon-180x180.png
+#	renamed:    images/apple-icon-57x57.png -> client/assets/images/apple-icon-57x57.png
+#	renamed:    images/apple-icon-60x60.png -> client/assets/images/apple-icon-60x60.png
+#	renamed:    images/apple-icon-72x72.png -> client/assets/images/apple-icon-72x72.png
+#	renamed:    images/apple-icon-76x76.png -> client/assets/images/apple-icon-76x76.png
+#	renamed:    images/apple-icon-precomposed.png -> client/assets/images/apple-icon-precomposed.png
+#	renamed:    images/apple-icon.png -> client/assets/images/apple-icon.png
+#	renamed:    images/avatar.jpg -> client/assets/images/avatar.jpg
+#	renamed:    images/background-img-1.jpg -> client/assets/images/background-img-1.jpg
+#	renamed:    images/background-img-10.jpg -> client/assets/images/background-img-10.jpg
+#	renamed:    images/background-img-2.jpg -> client/assets/images/background-img-2.jpg
+#	renamed:    images/background-img-3.jpg -> client/assets/images/background-img-3.jpg
+#	renamed:    images/background-img-4.jpg -> client/assets/images/background-img-4.jpg
+#	renamed:    images/background-img-5.jpg -> client/assets/images/background-img-5.jpg
+#	renamed:    images/background-img-6.jpg -> client/assets/images/background-img-6.jpg
+#	renamed:    images/background-img-7.jpg -> client/assets/images/background-img-7.jpg
+#	renamed:    images/background-img-8.jpg -> client/assets/images/background-img-8.jpg
+#	renamed:    images/background-img-9.jpg -> client/assets/images/background-img-9.jpg
+#	renamed:    images/browserconfig.xml -> client/assets/images/browserconfig.xml
+#	renamed:    images/category-1.jpg -> client/assets/images/category-1.jpg
+#	renamed:    images/category-2.jpg -> client/assets/images/category-2.jpg
+#	renamed:    images/category-3.jpg -> client/assets/images/category-3.jpg
+#	renamed:    images/category-4.jpg -> client/assets/images/category-4.jpg
+#	renamed:    images/category-5.jpg -> client/assets/images/category-5.jpg
+#	renamed:    images/category-6.jpg -> client/assets/images/category-6.jpg
+#	renamed:    images/client-1.png -> client/assets/images/client-1.png
+#	renamed:    images/client-2.png -> client/assets/images/client-2.png
+#	renamed:    images/client-3.png -> client/assets/images/client-3.png
+#	renamed:    images/client-4.png -> client/assets/images/client-4.png
+#	renamed:    images/client-5.png -> client/assets/images/client-5.png
+#	renamed:    images/client-6.png -> client/assets/images/client-6.png
+#	renamed:    images/client-7.png -> client/assets/images/client-7.png
+#	renamed:    images/client-8.png -> client/assets/images/client-8.png
+#	renamed:    images/favicon-16x16.png -> client/assets/images/favicon-16x16.png
+#	renamed:    images/favicon-32x32.png -> client/assets/images/favicon-32x32.png
+#	renamed:    images/favicon-96x96.png -> client/assets/images/favicon-96x96.png
+#	renamed:    images/favicon.ico -> client/assets/images/favicon.ico
+#	renamed:    images/fullscreen-bg.jpg -> client/assets/images/fullscreen-bg.jpg
+#	renamed:    images/gallery-1.jpg -> client/assets/images/gallery-1.jpg
+#	renamed:    images/gallery-2.jpg -> client/assets/images/gallery-2.jpg
+#	renamed:    images/gallery-3.jpg -> client/assets/images/gallery-3.jpg
+#	renamed:    images/gallery-4.jpg -> client/assets/images/gallery-4.jpg
+#	renamed:    images/gallery-5.jpg -> client/assets/images/gallery-5.jpg
+#	renamed:    images/gallery-6.jpg -> client/assets/images/gallery-6.jpg
+#	renamed:    images/landing-page-banner.jpg -> client/assets/images/landing-page-banner.jpg
+#	renamed:    images/logo.png -> client/assets/images/logo.png
+#	renamed:    images/logo_pink.png -> client/assets/images/logo_pink.png
+#	renamed:    images/manifest.json -> client/assets/images/manifest.json
+#	renamed:    images/ms-icon-144x144.png -> client/assets/images/ms-icon-144x144.png
+#	renamed:    images/ms-icon-150x150.png -> client/assets/images/ms-icon-150x150.png
+#	renamed:    images/ms-icon-310x310.png -> client/assets/images/ms-icon-310x310.png
+#	renamed:    images/ms-icon-70x70.png -> client/assets/images/ms-icon-70x70.png
+#	renamed:    images/page-about-1.jpg -> client/assets/images/page-about-1.jpg
+#	renamed:    images/page-about-2.jpg -> client/assets/images/page-about-2.jpg
+#	renamed:    images/page-about-3.jpg -> client/assets/images/page-about-3.jpg
+#	renamed:    images/page-about-banner-1.jpg -> client/assets/images/page-about-banner-1.jpg
+#	renamed:    images/page-about-banner-2.jpg -> client/assets/images/page-about-banner-2.jpg
+#	renamed:    images/page-about-me-banner.jpg -> client/assets/images/page-about-me-banner.jpg
+#	renamed:    images/page-contact-banner.jpg -> client/assets/images/page-contact-banner.jpg
+#	renamed:    images/page-portfolio-banner.jpg -> client/assets/images/page-portfolio-banner.jpg
+#	renamed:    images/page-services-banner.jpg -> client/assets/images/page-services-banner.jpg
+#	renamed:    images/pattern-1.png -> client/assets/images/pattern-1.png
+#	renamed:    images/pattern-2.png -> client/assets/images/pattern-2.png
+#	renamed:    images/pattern-3.png -> client/assets/images/pattern-3.png
+#	renamed:    images/pattern-4.png -> client/assets/images/pattern-4.png
+#	renamed:    images/pattern-5.png -> client/assets/images/pattern-5.png
+#	renamed:    images/pattern-6.png -> client/assets/images/pattern-6.png
+#	renamed:    images/pattern-7.png -> client/assets/images/pattern-7.png
+#	renamed:    images/pattern-8.png -> client/assets/images/pattern-8.png
+#	renamed:    images/pattern-9.png -> client/assets/images/pattern-9.png
+#	renamed:    images/portfolio-1-2.jpg -> client/assets/images/portfolio-1-2.jpg
+#	renamed:    images/portfolio-1-3.jpg -> client/assets/images/portfolio-1-3.jpg
+#	renamed:    images/portfolio-1-4.jpg -> client/assets/images/portfolio-1-4.jpg
+#	renamed:    images/portfolio-1-5.jpg -> client/assets/images/portfolio-1-5.jpg
+#	renamed:    images/portfolio-1.jpg -> client/assets/images/portfolio-1.jpg
+#	renamed:    images/portfolio-10.jpg -> client/assets/images/portfolio-10.jpg
+#	renamed:    images/portfolio-11.jpg -> client/assets/images/portfolio-11.jpg
+#	renamed:    images/portfolio-12.jpg -> client/assets/images/portfolio-12.jpg
+#	renamed:    images/portfolio-13.jpg -> client/assets/images/portfolio-13.jpg
+#	renamed:    images/portfolio-14.jpg -> client/assets/images/portfolio-14.jpg
+#	renamed:    images/portfolio-15.jpg -> client/assets/images/portfolio-15.jpg
+#	renamed:    images/portfolio-16.jpg -> client/assets/images/portfolio-16.jpg
+#	renamed:    images/portfolio-2.jpg -> client/assets/images/portfolio-2.jpg
+#	renamed:    images/portfolio-3.jpg -> client/assets/images/portfolio-3.jpg
+#	renamed:    images/portfolio-4.jpg -> client/assets/images/portfolio-4.jpg
+#	renamed:    images/portfolio-5.jpg -> client/assets/images/portfolio-5.jpg
+#	renamed:    images/portfolio-6.jpg -> client/assets/images/portfolio-6.jpg
+#	renamed:    images/portfolio-7.jpg -> client/assets/images/portfolio-7.jpg
+#	renamed:    images/portfolio-8.jpg -> client/assets/images/portfolio-8.jpg
+#	renamed:    images/portfolio-9.jpg -> client/assets/images/portfolio-9.jpg
+#	renamed:    images/portfolio-item-1-2.jpg -> client/assets/images/portfolio-item-1-2.jpg
+#	renamed:    images/portfolio-item-1-3.jpg -> client/assets/images/portfolio-item-1-3.jpg
+#	renamed:    images/portfolio-item-1-4.jpg -> client/assets/images/portfolio-item-1-4.jpg
+#	renamed:    images/portfolio-item-1-5.jpg -> client/assets/images/portfolio-item-1-5.jpg
+#	renamed:    images/portfolio-item-1.jpg -> client/assets/images/portfolio-item-1.jpg
+#	renamed:    images/portfolio-item-banner-1.jpg -> client/assets/images/portfolio-item-banner-1.jpg
+#	renamed:    images/portfolio-item-banner-2.jpg -> client/assets/images/portfolio-item-banner-2.jpg
+#	renamed:    images/portfolio-slider-slide-1.jpg -> client/assets/images/portfolio-slider-slide-1.jpg
+#	renamed:    images/portfolio-slider-slide-2.jpg -> client/assets/images/portfolio-slider-slide-2.jpg
+#	renamed:    images/product-1-2.jpg -> client/assets/images/product-1-2.jpg
+#	renamed:    images/product-1.jpg -> client/assets/images/product-1.jpg
+#	renamed:    images/product-2.jpg -> client/assets/images/product-2.jpg
+#	renamed:    images/product-3.jpg -> client/assets/images/product-3.jpg
+#	renamed:    images/product-4.jpg -> client/assets/images/product-4.jpg
+#	renamed:    images/product-5.jpg -> client/assets/images/product-5.jpg
+#	renamed:    images/product-6.jpg -> client/assets/images/product-6.jpg
+#	renamed:    images/product-7.jpg -> client/assets/images/product-7.jpg
+#	renamed:    images/product-8.jpg -> client/assets/images/product-8.jpg
+#	renamed:    images/restaurant-background-img-1.jpg -> client/assets/images/restaurant-background-img-1.jpg
+#	renamed:    images/restaurant-dish-1.jpg -> client/assets/images/restaurant-dish-1.jpg
+#	renamed:    images/restaurant-dish-10.jpg -> client/assets/images/restaurant-dish-10.jpg
+#	renamed:    images/restaurant-dish-11.jpg -> client/assets/images/restaurant-dish-11.jpg
+#	renamed:    images/restaurant-dish-12.jpg -> client/assets/images/restaurant-dish-12.jpg
+#	renamed:    images/restaurant-dish-2.jpg -> client/assets/images/restaurant-dish-2.jpg
+#	renamed:    images/restaurant-dish-3.jpg -> client/assets/images/restaurant-dish-3.jpg
+#	renamed:    images/restaurant-dish-4.jpg -> client/assets/images/restaurant-dish-4.jpg
+#	renamed:    images/restaurant-dish-5.jpg -> client/assets/images/restaurant-dish-5.jpg
+#	renamed:    images/restaurant-dish-6.jpg -> client/assets/images/restaurant-dish-6.jpg
+#	renamed:    images/restaurant-dish-7.jpg -> client/assets/images/restaurant-dish-7.jpg
+#	renamed:    images/restaurant-dish-8.jpg -> client/assets/images/restaurant-dish-8.jpg
+#	renamed:    images/restaurant-dish-9.jpg -> client/assets/images/restaurant-dish-9.jpg
+#	renamed:    images/restaurant-section-image-1.jpg -> client/assets/images/restaurant-section-image-1.jpg
+#	renamed:    images/restaurant-slider-slide-2.jpg -> client/assets/images/restaurant-slider-slide-2.jpg
+#	renamed:    images/resume-slide-1.jpg -> client/assets/images/resume-slide-1.jpg
+#	renamed:    images/section-image-1.png -> client/assets/images/section-image-1.png
+#	renamed:    images/section-image-2.png -> client/assets/images/section-image-2.png
+#	renamed:    images/section-image-3.jpg -> client/assets/images/section-image-3.jpg
+#	renamed:    images/section-image-3.png -> client/assets/images/section-image-3.png
+#	renamed:    images/section-image-4.jpg -> client/assets/images/section-image-4.jpg
+#	renamed:    images/section-image-5.jpg -> client/assets/images/section-image-5.jpg
+#	renamed:    images/service-1.jpg -> client/assets/images/service-1.jpg
+#	renamed:    images/service-2.jpg -> client/assets/images/service-2.jpg
+#	renamed:    images/service-3.jpg -> client/assets/images/service-3.jpg
+#	renamed:    images/service-4.jpg -> client/assets/images/service-4.jpg
+#	renamed:    images/service-5.jpg -> client/assets/images/service-5.jpg
+#	renamed:    images/service-6.jpg -> client/assets/images/service-6.jpg
+#	renamed:    images/service-image-1.png -> client/assets/images/service-image-1.png
+#	renamed:    images/shop-banner.jpg -> client/assets/images/shop-banner.jpg
+#	renamed:    images/shop-slide-1.jpg -> client/assets/images/shop-slide-1.jpg
+#	renamed:    images/shop-slide-2.jpg -> client/assets/images/shop-slide-2.jpg
+#	renamed:    images/slider-boxed-slide-1.jpg -> client/assets/images/slider-boxed-slide-1.jpg
+#	renamed:    images/slider-boxed-slide-2.jpg -> client/assets/images/slider-boxed-slide-2.jpg
+#	renamed:    images/slider-fullscreen-slide-1.jpg -> client/assets/images/slider-fullscreen-slide-1.jpg
+#	renamed:    images/slider-fullscreen-slide-2.jpg -> client/assets/images/slider-fullscreen-slide-2.jpg
+#	renamed:    images/slider-fullscreen2-slide-1.jpg -> client/assets/images/slider-fullscreen2-slide-1.jpg
+#	renamed:    images/slider-fullscreen2-slide-2.jpg -> client/assets/images/slider-fullscreen2-slide-2.jpg
+#	renamed:    images/slider-fullwidth-slide-1.jpg -> client/assets/images/slider-fullwidth-slide-1.jpg
+#	renamed:    images/slider-fullwidth-slide-2.jpg -> client/assets/images/slider-fullwidth-slide-2.jpg
+#	renamed:    images/team-member-1.jpg -> client/assets/images/team-member-1.jpg
+#	renamed:    images/team-member-2.jpg -> client/assets/images/team-member-2.jpg
+#	renamed:    images/team-member-3.jpg -> client/assets/images/team-member-3.jpg
+#	renamed:    images/team-member-4.jpg -> client/assets/images/team-member-4.jpg
+#	renamed:    images/testimonial-1.jpg -> client/assets/images/testimonial-1.jpg
+#	renamed:    images/testimonial-2.jpg -> client/assets/images/testimonial-2.jpg
+#	renamed:    images/testimonial-3.jpg -> client/assets/images/testimonial-3.jpg
+#	renamed:    images/wedding-banner.jpg -> client/assets/images/wedding-banner.jpg
+#	renamed:    images/wedding-bride.jpg -> client/assets/images/wedding-bride.jpg
+#	renamed:    images/wedding-event-1.jpg -> client/assets/images/wedding-event-1.jpg
+#	renamed:    images/wedding-event-2.jpg -> client/assets/images/wedding-event-2.jpg
+#	renamed:    images/wedding-event-3.jpg -> client/assets/images/wedding-event-3.jpg
+#	renamed:    images/wedding-gallery-1-2.jpg -> client/assets/images/wedding-gallery-1-2.jpg
+#	renamed:    images/wedding-gallery-1.jpg -> client/assets/images/wedding-gallery-1.jpg
+#	renamed:    images/wedding-gallery-2.jpg -> client/assets/images/wedding-gallery-2.jpg
+#	renamed:    images/wedding-gallery-3.jpg -> client/assets/images/wedding-gallery-3.jpg
+#	renamed:    images/wedding-gallery-4.jpg -> client/assets/images/wedding-gallery-4.jpg
+#	renamed:    images/wedding-gallery-5.jpg -> client/assets/images/wedding-gallery-5.jpg
+#	renamed:    images/wedding-gallery-6.jpg -> client/assets/images/wedding-gallery-6.jpg
+#	renamed:    images/wedding-gallery-7.jpg -> client/assets/images/wedding-gallery-7.jpg
+#	renamed:    images/wedding-gallery-8.jpg -> client/assets/images/wedding-gallery-8.jpg
+#	renamed:    images/wedding-groom.jpg -> client/assets/images/wedding-groom.jpg
+#	renamed:    images/wedding-place-1.jpg -> client/assets/images/wedding-place-1.jpg
+#	renamed:    js/angular_code.js -> client/assets/js/angular_code.js
+#	renamed:    js/custom.js -> client/assets/js/custom.js
+#	renamed:    js/google.map.config.js -> client/assets/js/google.map.config.js
+#	renamed:    js/template.js -> client/assets/js/template.js
+#	renamed:    less/10_full-page.less -> client/assets/less/10_full-page.less
+#	renamed:    less/1_typography.less -> client/assets/less/1_typography.less
+#	renamed:    less/2_layout.less -> client/assets/less/2_layout.less
+#	renamed:    less/3_sections.less -> client/assets/less/3_sections.less
+#	renamed:    less/4_pages.less -> client/assets/less/4_pages.less
+#	renamed:    less/5_components.less -> client/assets/less/5_components.less
+#	renamed:    less/6_navigations.less -> client/assets/less/6_navigations.less
+#	renamed:    less/7_blocks-widgets.less -> client/assets/less/7_blocks-widgets.less
+#	renamed:    less/8_main-slideshow.less -> client/assets/less/8_main-slideshow.less
+#	renamed:    less/9_owl-carousel.less -> client/assets/less/9_owl-carousel.less
+#	renamed:    less/mixins.less -> client/assets/less/mixins.less
+#	renamed:    less/mixins/buttons.less -> client/assets/less/mixins/buttons.less
+#	renamed:    less/mixins/center-block.less -> client/assets/less/mixins/center-block.less
+#	renamed:    less/mixins/clearfix.less -> client/assets/less/mixins/clearfix.less
+#	renamed:    less/mixins/functions.less -> client/assets/less/mixins/functions.less
+#	renamed:    less/mixins/gradients.less -> client/assets/less/mixins/gradients.less
+#	renamed:    less/mixins/hide-text.less -> client/assets/less/mixins/hide-text.less
+#	renamed:    less/mixins/opacity.less -> client/assets/less/mixins/opacity.less
+#	renamed:    less/mixins/size.less -> client/assets/less/mixins/size.less
+#	renamed:    less/mixins/vendor-prefixes.less -> client/assets/less/mixins/vendor-prefixes.less
+#	renamed:    less/skins/blue.less -> client/assets/less/skins/blue.less
+#	renamed:    less/skins/brown.less -> client/assets/less/skins/brown.less
+#	renamed:    less/skins/cool_green.less -> client/assets/less/skins/cool_green.less
+#	renamed:    less/skins/dark_cyan.less -> client/assets/less/skins/dark_cyan.less
+#	renamed:    less/skins/dark_red.less -> client/assets/less/skins/dark_red.less
+#	renamed:    less/skins/gold.less -> client/assets/less/skins/gold.less
+#	renamed:    less/skins/gray.less -> client/assets/less/skins/gray.less
+#	renamed:    less/skins/green.less -> client/assets/less/skins/green.less
+#	renamed:    less/skins/light_blue.less -> client/assets/less/skins/light_blue.less
+#	renamed:    less/skins/orange.less -> client/assets/less/skins/orange.less
+#	renamed:    less/skins/pink.less -> client/assets/less/skins/pink.less
+#	renamed:    less/skins/purple.less -> client/assets/less/skins/purple.less
+#	renamed:    less/skins/red.less -> client/assets/less/skins/red.less
+#	renamed:    less/skins/vivid_red.less -> client/assets/less/skins/vivid_red.less
+#	renamed:    less/style.less -> client/assets/less/style.less
+#	renamed:    less/variables.less -> client/assets/less/variables.less
+#	new file:   client/assets/node_modules/body-parser/HISTORY.md
+#	new file:   client/assets/node_modules/body-parser/LICENSE
+#	new file:   client/assets/node_modules/body-parser/README.md
+#	new file:   client/assets/node_modules/body-parser/index.js
+#	new file:   client/assets/node_modules/body-parser/lib/read.js
+#	new file:   client/assets/node_modules/body-parser/lib/types/json.js
+#	new file:   client/assets/node_modules/body-parser/lib/types/raw.js
+#	new file:   client/assets/node_modules/body-parser/lib/types/text.js
+#	new file:   client/assets/node_modules/body-parser/lib/types/urlencoded.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/bytes/History.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/bytes/LICENSE
+#	new file:   client/assets/node_modules/body-parser/node_modules/bytes/Readme.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/bytes/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/bytes/package.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/content-type/HISTORY.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/content-type/LICENSE
+#	new file:   client/assets/node_modules/body-parser/node_modules/content-type/README.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/content-type/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/content-type/package.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/debug/.jshintrc
+#	new file:   client/assets/node_modules/body-parser/node_modules/debug/.npmignore
+#	new file:   client/assets/node_modules/body-parser/node_modules/debug/History.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/debug/Makefile
+#	new file:   client/assets/node_modules/body-parser/node_modules/debug/Readme.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/debug/bower.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/debug/browser.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/debug/component.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/debug/debug.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/debug/node.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/debug/node_modules/ms/.npmignore
+#	new file:   client/assets/node_modules/body-parser/node_modules/debug/node_modules/ms/History.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/debug/node_modules/ms/LICENSE
+#	new file:   client/assets/node_modules/body-parser/node_modules/debug/node_modules/ms/README.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/debug/node_modules/ms/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/debug/node_modules/ms/package.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/debug/package.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/depd/History.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/depd/LICENSE
+#	new file:   client/assets/node_modules/body-parser/node_modules/depd/Readme.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/depd/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/depd/lib/browser/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/depd/lib/compat/buffer-concat.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/depd/lib/compat/callsite-tostring.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/depd/lib/compat/event-listener-count.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/depd/lib/compat/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/depd/package.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/HISTORY.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/LICENSE
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/README.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/node_modules/inherits/LICENSE
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/node_modules/inherits/README.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/node_modules/inherits/inherits.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/node_modules/inherits/inherits_browser.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/node_modules/inherits/package.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/node_modules/inherits/test.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/node_modules/setprototypeof/LICENSE
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/node_modules/setprototypeof/README.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/node_modules/setprototypeof/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/node_modules/setprototypeof/package.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/node_modules/statuses/HISTORY.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/node_modules/statuses/LICENSE
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/node_modules/statuses/README.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/node_modules/statuses/codes.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/node_modules/statuses/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/node_modules/statuses/package.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/http-errors/package.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/.npmignore
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/.travis.yml
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/Changelog.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/LICENSE
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/README.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/encodings/dbcs-codec.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/encodings/dbcs-data.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/encodings/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/encodings/internal.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/encodings/sbcs-codec.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/encodings/sbcs-data-generated.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/encodings/sbcs-data.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/big5-added.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/cp936.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/cp949.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/cp950.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/eucjp.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/gbk-added.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/shiftjis.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/encodings/utf16.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/encodings/utf7.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/lib/bom-handling.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/lib/extend-node.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/lib/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/lib/streams.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/iconv-lite/package.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/on-finished/HISTORY.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/on-finished/LICENSE
+#	new file:   client/assets/node_modules/body-parser/node_modules/on-finished/README.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/on-finished/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first/LICENSE
+#	new file:   client/assets/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first/README.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/on-finished/node_modules/ee-first/package.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/on-finished/package.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/qs/.eslintignore
+#	new file:   client/assets/node_modules/body-parser/node_modules/qs/.eslintrc
+#	new file:   client/assets/node_modules/body-parser/node_modules/qs/.jscs.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/qs/CHANGELOG.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/qs/CONTRIBUTING.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/qs/LICENSE
+#	new file:   client/assets/node_modules/body-parser/node_modules/qs/dist/qs.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/qs/lib/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/qs/lib/parse.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/qs/lib/stringify.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/qs/lib/utils.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/qs/package.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/qs/test/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/qs/test/parse.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/qs/test/stringify.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/qs/test/utils.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/raw-body/HISTORY.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/raw-body/LICENSE
+#	new file:   client/assets/node_modules/body-parser/node_modules/raw-body/README.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/raw-body/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/raw-body/node_modules/unpipe/HISTORY.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/raw-body/node_modules/unpipe/LICENSE
+#	new file:   client/assets/node_modules/body-parser/node_modules/raw-body/node_modules/unpipe/README.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/raw-body/node_modules/unpipe/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/raw-body/node_modules/unpipe/package.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/raw-body/package.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/HISTORY.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/LICENSE
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/README.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/node_modules/media-typer/HISTORY.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/node_modules/media-typer/LICENSE
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/node_modules/media-typer/README.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/node_modules/media-typer/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/node_modules/media-typer/package.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/HISTORY.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/LICENSE
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/README.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/HISTORY.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/LICENSE
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/README.md
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/db.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/index.js
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/package.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/node_modules/mime-types/package.json
+#	new file:   client/assets/node_modules/body-parser/node_modules/type-is/package.json
+#	new file:   client/assets/node_modules/body-parser/package.json
+#	new file:   client/assets/node_modules/express/History.md
+#	new file:   client/assets/node_modules/express/LICENSE
+#	new file:   client/assets/node_modules/express/Readme.md
+#	new file:   client/assets/node_modules/express/index.js
+#	new file:   client/assets/node_modules/express/lib/application.js
+#	new file:   client/assets/node_modules/express/lib/express.js
+#	new file:   client/assets/node_modules/express/lib/middleware/init.js
+#	new file:   client/assets/node_modules/express/lib/middleware/query.js
+#	new file:   client/assets/node_modules/express/lib/request.js
+#	new file:   client/assets/node_modules/express/lib/response.js
+#	new file:   client/assets/node_modules/express/lib/router/index.js
+#	new file:   client/assets/node_modules/express/lib/router/layer.js
+#	new file:   client/assets/node_modules/express/lib/router/route.js
+#	new file:   client/assets/node_modules/express/lib/utils.js
+#	new file:   client/assets/node_modules/express/lib/view.js
+#	new file:   client/assets/node_modules/express/node_modules/accepts/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/accepts/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/accepts/README.md
+#	new file:   client/assets/node_modules/express/node_modules/accepts/index.js
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/mime-types/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/mime-types/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/mime-types/README.md
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/mime-types/index.js
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/README.md
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/db.json
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/index.js
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/package.json
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/mime-types/package.json
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/negotiator/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/negotiator/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/negotiator/README.md
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/negotiator/index.js
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/charset.js
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/encoding.js
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/language.js
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/mediaType.js
+#	new file:   client/assets/node_modules/express/node_modules/accepts/node_modules/negotiator/package.json
+#	new file:   client/assets/node_modules/express/node_modules/accepts/package.json
+#	new file:   client/assets/node_modules/express/node_modules/array-flatten/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/array-flatten/README.md
+#	new file:   client/assets/node_modules/express/node_modules/array-flatten/array-flatten.js
+#	new file:   client/assets/node_modules/express/node_modules/array-flatten/package.json
+#	new file:   client/assets/node_modules/express/node_modules/content-disposition/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/content-disposition/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/content-disposition/README.md
+#	new file:   client/assets/node_modules/express/node_modules/content-disposition/index.js
+#	new file:   client/assets/node_modules/express/node_modules/content-disposition/package.json
+#	new file:   client/assets/node_modules/express/node_modules/content-type/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/content-type/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/content-type/README.md
+#	new file:   client/assets/node_modules/express/node_modules/content-type/index.js
+#	new file:   client/assets/node_modules/express/node_modules/content-type/package.json
+#	new file:   client/assets/node_modules/express/node_modules/cookie-signature/.npmignore
+#	new file:   client/assets/node_modules/express/node_modules/cookie-signature/History.md
+#	new file:   client/assets/node_modules/express/node_modules/cookie-signature/Readme.md
+#	new file:   client/assets/node_modules/express/node_modules/cookie-signature/index.js
+#	new file:   client/assets/node_modules/express/node_modules/cookie-signature/package.json
+#	new file:   client/assets/node_modules/express/node_modules/cookie/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/cookie/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/cookie/README.md
+#	new file:   client/assets/node_modules/express/node_modules/cookie/index.js
+#	new file:   client/assets/node_modules/express/node_modules/cookie/package.json
+#	new file:   client/assets/node_modules/express/node_modules/debug/.jshintrc
+#	new file:   client/assets/node_modules/express/node_modules/debug/.npmignore
+#	new file:   client/assets/node_modules/express/node_modules/debug/History.md
+#	new file:   client/assets/node_modules/express/node_modules/debug/Makefile
+#	new file:   client/assets/node_modules/express/node_modules/debug/Readme.md
+#	new file:   client/assets/node_modules/express/node_modules/debug/bower.json
+#	new file:   client/assets/node_modules/express/node_modules/debug/browser.js
+#	new file:   client/assets/node_modules/express/node_modules/debug/component.json
+#	new file:   client/assets/node_modules/express/node_modules/debug/debug.js
+#	new file:   client/assets/node_modules/express/node_modules/debug/node.js
+#	new file:   client/assets/node_modules/express/node_modules/debug/node_modules/ms/.npmignore
+#	new file:   client/assets/node_modules/express/node_modules/debug/node_modules/ms/History.md
+#	new file:   client/assets/node_modules/express/node_modules/debug/node_modules/ms/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/debug/node_modules/ms/README.md
+#	new file:   client/assets/node_modules/express/node_modules/debug/node_modules/ms/index.js
+#	new file:   client/assets/node_modules/express/node_modules/debug/node_modules/ms/package.json
+#	new file:   client/assets/node_modules/express/node_modules/debug/package.json
+#	new file:   client/assets/node_modules/express/node_modules/depd/History.md
+#	new file:   client/assets/node_modules/express/node_modules/depd/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/depd/Readme.md
+#	new file:   client/assets/node_modules/express/node_modules/depd/index.js
+#	new file:   client/assets/node_modules/express/node_modules/depd/lib/browser/index.js
+#	new file:   client/assets/node_modules/express/node_modules/depd/lib/compat/buffer-concat.js
+#	new file:   client/assets/node_modules/express/node_modules/depd/lib/compat/callsite-tostring.js
+#	new file:   client/assets/node_modules/express/node_modules/depd/lib/compat/event-listener-count.js
+#	new file:   client/assets/node_modules/express/node_modules/depd/lib/compat/index.js
+#	new file:   client/assets/node_modules/express/node_modules/depd/package.json
+#	new file:   client/assets/node_modules/express/node_modules/encodeurl/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/encodeurl/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/encodeurl/README.md
+#	new file:   client/assets/node_modules/express/node_modules/encodeurl/index.js
+#	new file:   client/assets/node_modules/express/node_modules/encodeurl/package.json
+#	new file:   client/assets/node_modules/express/node_modules/escape-html/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/escape-html/Readme.md
+#	new file:   client/assets/node_modules/express/node_modules/escape-html/index.js
+#	new file:   client/assets/node_modules/express/node_modules/escape-html/package.json
+#	new file:   client/assets/node_modules/express/node_modules/etag/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/etag/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/etag/README.md
+#	new file:   client/assets/node_modules/express/node_modules/etag/index.js
+#	new file:   client/assets/node_modules/express/node_modules/etag/package.json
+#	new file:   client/assets/node_modules/express/node_modules/finalhandler/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/finalhandler/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/finalhandler/README.md
+#	new file:   client/assets/node_modules/express/node_modules/finalhandler/index.js
+#	new file:   client/assets/node_modules/express/node_modules/finalhandler/node_modules/statuses/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/finalhandler/node_modules/statuses/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/finalhandler/node_modules/statuses/README.md
+#	new file:   client/assets/node_modules/express/node_modules/finalhandler/node_modules/statuses/codes.json
+#	new file:   client/assets/node_modules/express/node_modules/finalhandler/node_modules/statuses/index.js
+#	new file:   client/assets/node_modules/express/node_modules/finalhandler/node_modules/statuses/package.json
+#	new file:   client/assets/node_modules/express/node_modules/finalhandler/node_modules/unpipe/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/finalhandler/node_modules/unpipe/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/finalhandler/node_modules/unpipe/README.md
+#	new file:   client/assets/node_modules/express/node_modules/finalhandler/node_modules/unpipe/index.js
+#	new file:   client/assets/node_modules/express/node_modules/finalhandler/node_modules/unpipe/package.json
+#	new file:   client/assets/node_modules/express/node_modules/finalhandler/package.json
+#	new file:   client/assets/node_modules/express/node_modules/fresh/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/fresh/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/fresh/README.md
+#	new file:   client/assets/node_modules/express/node_modules/fresh/index.js
+#	new file:   client/assets/node_modules/express/node_modules/fresh/package.json
+#	new file:   client/assets/node_modules/express/node_modules/merge-descriptors/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/merge-descriptors/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/merge-descriptors/README.md
+#	new file:   client/assets/node_modules/express/node_modules/merge-descriptors/index.js
+#	new file:   client/assets/node_modules/express/node_modules/merge-descriptors/package.json
+#	new file:   client/assets/node_modules/express/node_modules/methods/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/methods/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/methods/README.md
+#	new file:   client/assets/node_modules/express/node_modules/methods/index.js
+#	new file:   client/assets/node_modules/express/node_modules/methods/package.json
+#	new file:   client/assets/node_modules/express/node_modules/on-finished/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/on-finished/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/on-finished/README.md
+#	new file:   client/assets/node_modules/express/node_modules/on-finished/index.js
+#	new file:   client/assets/node_modules/express/node_modules/on-finished/node_modules/ee-first/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/on-finished/node_modules/ee-first/README.md
+#	new file:   client/assets/node_modules/express/node_modules/on-finished/node_modules/ee-first/index.js
+#	new file:   client/assets/node_modules/express/node_modules/on-finished/node_modules/ee-first/package.json
+#	new file:   client/assets/node_modules/express/node_modules/on-finished/package.json
+#	new file:   client/assets/node_modules/express/node_modules/parseurl/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/parseurl/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/parseurl/README.md
+#	new file:   client/assets/node_modules/express/node_modules/parseurl/index.js
+#	new file:   client/assets/node_modules/express/node_modules/parseurl/package.json
+#	new file:   client/assets/node_modules/express/node_modules/path-to-regexp/History.md
+#	new file:   client/assets/node_modules/express/node_modules/path-to-regexp/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/path-to-regexp/Readme.md
+#	new file:   client/assets/node_modules/express/node_modules/path-to-regexp/index.js
+#	new file:   client/assets/node_modules/express/node_modules/path-to-regexp/package.json
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/README.md
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/index.js
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/README.md
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/index.js
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/package.json
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/.npmignore
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/.travis.yml
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/Cakefile
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/README.md
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/bower.json
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/ipaddr.min.js
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/lib/ipaddr.js
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/package.json
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/src/ipaddr.coffee
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/test/ipaddr.test.coffee
+#	new file:   client/assets/node_modules/express/node_modules/proxy-addr/package.json
+#	new file:   client/assets/node_modules/express/node_modules/qs/.eslintignore
+#	new file:   client/assets/node_modules/express/node_modules/qs/.eslintrc
+#	new file:   client/assets/node_modules/express/node_modules/qs/.jscs.json
+#	new file:   client/assets/node_modules/express/node_modules/qs/CHANGELOG.md
+#	new file:   client/assets/node_modules/express/node_modules/qs/CONTRIBUTING.md
+#	new file:   client/assets/node_modules/express/node_modules/qs/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/qs/dist/qs.js
+#	new file:   client/assets/node_modules/express/node_modules/qs/lib/index.js
+#	new file:   client/assets/node_modules/express/node_modules/qs/lib/parse.js
+#	new file:   client/assets/node_modules/express/node_modules/qs/lib/stringify.js
+#	new file:   client/assets/node_modules/express/node_modules/qs/lib/utils.js
+#	new file:   client/assets/node_modules/express/node_modules/qs/package.json
+#	new file:   client/assets/node_modules/express/node_modules/qs/test/index.js
+#	new file:   client/assets/node_modules/express/node_modules/qs/test/parse.js
+#	new file:   client/assets/node_modules/express/node_modules/qs/test/stringify.js
+#	new file:   client/assets/node_modules/express/node_modules/qs/test/utils.js
+#	new file:   client/assets/node_modules/express/node_modules/range-parser/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/range-parser/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/range-parser/README.md
+#	new file:   client/assets/node_modules/express/node_modules/range-parser/index.js
+#	new file:   client/assets/node_modules/express/node_modules/range-parser/package.json
+#	new file:   client/assets/node_modules/express/node_modules/send/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/send/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/send/README.md
+#	new file:   client/assets/node_modules/express/node_modules/send/index.js
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/.bin/mime
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/destroy/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/destroy/README.md
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/destroy/index.js
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/destroy/package.json
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/http-errors/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/http-errors/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/http-errors/README.md
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/http-errors/index.js
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/README.md
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/inherits.js
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/inherits_browser.js
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/package.json
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/test.js
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/setprototypeof/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/setprototypeof/README.md
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/setprototypeof/index.js
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/setprototypeof/package.json
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/http-errors/package.json
+#	renamed:    plugins/rs-plugin-5/css/index.php -> client/assets/node_modules/express/node_modules/send/node_modules/mime/.npmignore
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/mime/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/mime/README.md
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/mime/build/build.js
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/mime/build/test.js
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/mime/cli.js
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/mime/mime.js
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/mime/package.json
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/mime/types.json
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/ms/.npmignore
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/ms/History.md
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/ms/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/ms/README.md
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/ms/index.js
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/ms/package.json
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/statuses/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/statuses/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/statuses/README.md
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/statuses/codes.json
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/statuses/index.js
+#	new file:   client/assets/node_modules/express/node_modules/send/node_modules/statuses/package.json
+#	new file:   client/assets/node_modules/express/node_modules/send/package.json
+#	new file:   client/assets/node_modules/express/node_modules/serve-static/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/serve-static/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/serve-static/README.md
+#	new file:   client/assets/node_modules/express/node_modules/serve-static/index.js
+#	new file:   client/assets/node_modules/express/node_modules/serve-static/package.json
+#	new file:   client/assets/node_modules/express/node_modules/type-is/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/type-is/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/type-is/README.md
+#	new file:   client/assets/node_modules/express/node_modules/type-is/index.js
+#	new file:   client/assets/node_modules/express/node_modules/type-is/node_modules/media-typer/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/type-is/node_modules/media-typer/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/type-is/node_modules/media-typer/README.md
+#	new file:   client/assets/node_modules/express/node_modules/type-is/node_modules/media-typer/index.js
+#	new file:   client/assets/node_modules/express/node_modules/type-is/node_modules/media-typer/package.json
+#	new file:   client/assets/node_modules/express/node_modules/type-is/node_modules/mime-types/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/type-is/node_modules/mime-types/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/type-is/node_modules/mime-types/README.md
+#	new file:   client/assets/node_modules/express/node_modules/type-is/node_modules/mime-types/index.js
+#	new file:   client/assets/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/README.md
+#	new file:   client/assets/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/db.json
+#	new file:   client/assets/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/index.js
+#	new file:   client/assets/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/package.json
+#	new file:   client/assets/node_modules/express/node_modules/type-is/node_modules/mime-types/package.json
+#	new file:   client/assets/node_modules/express/node_modules/type-is/package.json
+#	new file:   client/assets/node_modules/express/node_modules/utils-merge/.travis.yml
+#	new file:   client/assets/node_modules/express/node_modules/utils-merge/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/utils-merge/README.md
+#	new file:   client/assets/node_modules/express/node_modules/utils-merge/index.js
+#	new file:   client/assets/node_modules/express/node_modules/utils-merge/package.json
+#	new file:   client/assets/node_modules/express/node_modules/vary/HISTORY.md
+#	new file:   client/assets/node_modules/express/node_modules/vary/LICENSE
+#	new file:   client/assets/node_modules/express/node_modules/vary/README.md
+#	new file:   client/assets/node_modules/express/node_modules/vary/index.js
+#	new file:   client/assets/node_modules/express/node_modules/vary/package.json
+#	new file:   client/assets/node_modules/express/package.json
+#	new file:   client/assets/node_modules/mongoose/.eslintignore
+#	new file:   client/assets/node_modules/mongoose/.eslintrc.yml
+#	new file:   client/assets/node_modules/mongoose/.npmignore
+#	new file:   client/assets/node_modules/mongoose/.travis.yml
+#	new file:   client/assets/node_modules/mongoose/CONTRIBUTING.md
+#	new file:   client/assets/node_modules/mongoose/History.md
+#	new file:   client/assets/node_modules/mongoose/README.md
+#	new file:   client/assets/node_modules/mongoose/examples/README.md
+#	new file:   client/assets/node_modules/mongoose/examples/aggregate/aggregate.js
+#	new file:   client/assets/node_modules/mongoose/examples/aggregate/package.json
+#	new file:   client/assets/node_modules/mongoose/examples/aggregate/person.js
+#	new file:   client/assets/node_modules/mongoose/examples/doc-methods.js
+#	new file:   client/assets/node_modules/mongoose/examples/express/README.md
+#	new file:   client/assets/node_modules/mongoose/examples/express/connection-sharing/README.md
+#	new file:   client/assets/node_modules/mongoose/examples/express/connection-sharing/app.js
+#	new file:   client/assets/node_modules/mongoose/examples/express/connection-sharing/modelA.js
+#	new file:   client/assets/node_modules/mongoose/examples/express/connection-sharing/package.json
+#	new file:   client/assets/node_modules/mongoose/examples/express/connection-sharing/routes.js
+#	new file:   client/assets/node_modules/mongoose/examples/geospatial/geoJSONSchema.js
+#	new file:   client/assets/node_modules/mongoose/examples/geospatial/geoJSONexample.js
+#	new file:   client/assets/node_modules/mongoose/examples/geospatial/geospatial.js
+#	new file:   client/assets/node_modules/mongoose/examples/geospatial/package.json
+#	new file:   client/assets/node_modules/mongoose/examples/geospatial/person.js
+#	new file:   client/assets/node_modules/mongoose/examples/globalschemas/gs_example.js
+#	new file:   client/assets/node_modules/mongoose/examples/globalschemas/person.js
+#	new file:   client/assets/node_modules/mongoose/examples/lean/lean.js
+#	new file:   client/assets/node_modules/mongoose/examples/lean/package.json
+#	new file:   client/assets/node_modules/mongoose/examples/lean/person.js
+#	new file:   client/assets/node_modules/mongoose/examples/mapreduce/mapreduce.js
+#	new file:   client/assets/node_modules/mongoose/examples/mapreduce/package.json
+#	new file:   client/assets/node_modules/mongoose/examples/mapreduce/person.js
+#	new file:   client/assets/node_modules/mongoose/examples/population/population-across-three-collections.js
+#	new file:   client/assets/node_modules/mongoose/examples/population/population-basic.js
+#	new file:   client/assets/node_modules/mongoose/examples/population/population-of-existing-doc.js
+#	new file:   client/assets/node_modules/mongoose/examples/population/population-of-multiple-existing-docs.js
+#	new file:   client/assets/node_modules/mongoose/examples/population/population-options.js
+#	new file:   client/assets/node_modules/mongoose/examples/population/population-plain-objects.js
+#	new file:   client/assets/node_modules/mongoose/examples/promises/package.json
+#	new file:   client/assets/node_modules/mongoose/examples/promises/person.js
+#	new file:   client/assets/node_modules/mongoose/examples/promises/promise.js
+#	new file:   client/assets/node_modules/mongoose/examples/querybuilder/package.json
+#	new file:   client/assets/node_modules/mongoose/examples/querybuilder/person.js
+#	new file:   client/assets/node_modules/mongoose/examples/querybuilder/querybuilder.js
+#	new file:   client/assets/node_modules/mongoose/examples/replicasets/package.json
+#	new file:   client/assets/node_modules/mongoose/examples/replicasets/person.js
+#	new file:   client/assets/node_modules/mongoose/examples/replicasets/replica-sets.js
+#	new file:   client/assets/node_modules/mongoose/examples/schema/schema.js
+#	new file:   client/assets/node_modules/mongoose/examples/schema/storing-schemas-as-json/index.js
+#	new file:   client/assets/node_modules/mongoose/examples/schema/storing-schemas-as-json/schema.json
+#	new file:   client/assets/node_modules/mongoose/examples/statics/person.js
+#	new file:   client/assets/node_modules/mongoose/examples/statics/statics.js
+#	new file:   client/assets/node_modules/mongoose/index.js
+#	new file:   client/assets/node_modules/mongoose/lib/ES6Promise.js
+#	new file:   client/assets/node_modules/mongoose/lib/aggregate.js
+#	new file:   client/assets/node_modules/mongoose/lib/browser.js
+#	new file:   client/assets/node_modules/mongoose/lib/browserDocument.js
+#	new file:   client/assets/node_modules/mongoose/lib/cast.js
+#	new file:   client/assets/node_modules/mongoose/lib/collection.js
+#	new file:   client/assets/node_modules/mongoose/lib/connection.js
+#	new file:   client/assets/node_modules/mongoose/lib/connectionstate.js
+#	new file:   client/assets/node_modules/mongoose/lib/document.js
+#	new file:   client/assets/node_modules/mongoose/lib/document_provider.js
+#	new file:   client/assets/node_modules/mongoose/lib/document_provider.web.js
+#	new file:   client/assets/node_modules/mongoose/lib/drivers/SPEC.md
+#	new file:   client/assets/node_modules/mongoose/lib/drivers/browser/ReadPreference.js
+#	new file:   client/assets/node_modules/mongoose/lib/drivers/browser/binary.js
+#	new file:   client/assets/node_modules/mongoose/lib/drivers/browser/index.js
+#	new file:   client/assets/node_modules/mongoose/lib/drivers/browser/objectid.js
+#	new file:   client/assets/node_modules/mongoose/lib/drivers/index.js
+#	new file:   client/assets/node_modules/mongoose/lib/drivers/index.web.js
+#	new file:   client/assets/node_modules/mongoose/lib/drivers/node-mongodb-native/ReadPreference.js
+#	new file:   client/assets/node_modules/mongoose/lib/drivers/node-mongodb-native/binary.js
+#	new file:   client/assets/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js
+#	new file:   client/assets/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js
+#	new file:   client/assets/node_modules/mongoose/lib/drivers/node-mongodb-native/index.js
+#	new file:   client/assets/node_modules/mongoose/lib/drivers/node-mongodb-native/objectid.js
+#	new file:   client/assets/node_modules/mongoose/lib/error.js
+#	new file:   client/assets/node_modules/mongoose/lib/error/browserMissingSchema.js
+#	new file:   client/assets/node_modules/mongoose/lib/error/cast.js
+#	new file:   client/assets/node_modules/mongoose/lib/error/disconnected.js
+#	new file:   client/assets/node_modules/mongoose/lib/error/divergentArray.js
+#	new file:   client/assets/node_modules/mongoose/lib/error/messages.js
+#	new file:   client/assets/node_modules/mongoose/lib/error/missingSchema.js
+#	new file:   client/assets/node_modules/mongoose/lib/error/objectExpected.js
+#	new file:   client/assets/node_modules/mongoose/lib/error/overwriteModel.js
+#	new file:   client/assets/node_modules/mongoose/lib/error/strict.js
+#	new file:   client/assets/node_modules/mongoose/lib/error/validation.js
+#	new file:   client/assets/node_modules/mongoose/lib/error/validator.js
+#	new file:   client/assets/node_modules/mongoose/lib/error/version.js
+#	new file:   client/assets/node_modules/mongoose/lib/index.js
+#	new file:   client/assets/node_modules/mongoose/lib/internal.js
+#	new file:   client/assets/node_modules/mongoose/lib/model.js
+#	new file:   client/assets/node_modules/mongoose/lib/promise.js
+#	new file:   client/assets/node_modules/mongoose/lib/promise_provider.js
+#	new file:   client/assets/node_modules/mongoose/lib/query.js
+#	new file:   client/assets/node_modules/mongoose/lib/querycursor.js
+#	new file:   client/assets/node_modules/mongoose/lib/queryhelpers.js
+#	new file:   client/assets/node_modules/mongoose/lib/querystream.js
+#	new file:   client/assets/node_modules/mongoose/lib/schema.js
+#	new file:   client/assets/node_modules/mongoose/lib/schema/array.js
+#	new file:   client/assets/node_modules/mongoose/lib/schema/boolean.js
+#	new file:   client/assets/node_modules/mongoose/lib/schema/buffer.js
+#	new file:   client/assets/node_modules/mongoose/lib/schema/date.js
+#	new file:   client/assets/node_modules/mongoose/lib/schema/documentarray.js
+#	new file:   client/assets/node_modules/mongoose/lib/schema/embedded.js
+#	new file:   client/assets/node_modules/mongoose/lib/schema/index.js
+#	new file:   client/assets/node_modules/mongoose/lib/schema/mixed.js
+#	new file:   client/assets/node_modules/mongoose/lib/schema/number.js
+#	new file:   client/assets/node_modules/mongoose/lib/schema/objectid.js
+#	new file:   client/assets/node_modules/mongoose/lib/schema/operators/bitwise.js
+#	new file:   client/assets/node_modules/mongoose/lib/schema/operators/geospatial.js
+#	new file:   client/assets/node_modules/mongoose/lib/schema/operators/helpers.js
+#	new file:   client/assets/node_modules/mongoose/lib/schema/string.js
+#	new file:   client/assets/node_modules/mongoose/lib/schematype.js
+#	new file:   client/assets/node_modules/mongoose/lib/services/common.js
+#	new file:   client/assets/node_modules/mongoose/lib/services/setDefaultsOnInsert.js
+#	new file:   client/assets/node_modules/mongoose/lib/services/updateValidators.js
+#	new file:   client/assets/node_modules/mongoose/lib/statemachine.js
+#	new file:   client/assets/node_modules/mongoose/lib/types/array.js
+#	new file:   client/assets/node_modules/mongoose/lib/types/buffer.js
+#	new file:   client/assets/node_modules/mongoose/lib/types/documentarray.js
+#	new file:   client/assets/node_modules/mongoose/lib/types/embedded.js
+#	new file:   client/assets/node_modules/mongoose/lib/types/index.js
+#	new file:   client/assets/node_modules/mongoose/lib/types/objectid.js
+#	new file:   client/assets/node_modules/mongoose/lib/types/subdocument.js
+#	new file:   client/assets/node_modules/mongoose/lib/utils.js
+#	new file:   client/assets/node_modules/mongoose/lib/virtualtype.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/async/CHANGELOG.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/async/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/async/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/async/dist/async.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/async/dist/async.min.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/async/lib/async.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/async/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/HISTORY.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/LICENSE.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/alternate_parsers/bson.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/alternate_parsers/faster_bson.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/bower.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/browser_build/bson.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/browser_build/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/deserializer_bak.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/binary.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/bson.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/code.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/db_ref.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/decimal128.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/double.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/float_parser.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/int_32.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/long.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/map.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/max_key.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/min_key.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/objectid.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/parser/calculate_size.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/parser/deserializer.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/parser/serializer.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/regexp.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/symbol.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/lib/bson/timestamp.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/bson/tools/gleak.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/hooks-fixed/.npmignore
+#	new file:   client/assets/node_modules/mongoose/node_modules/hooks-fixed/Makefile
+#	new file:   client/assets/node_modules/mongoose/node_modules/hooks-fixed/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/hooks-fixed/hooks.alt.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/hooks-fixed/hooks.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/hooks-fixed/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/hooks-fixed/test.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/kareem/.npmignore
+#	new file:   client/assets/node_modules/mongoose/node_modules/kareem/.travis.yml
+#	new file:   client/assets/node_modules/mongoose/node_modules/kareem/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/kareem/Makefile
+#	new file:   client/assets/node_modules/mongoose/node_modules/kareem/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/kareem/docs.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/kareem/gulpfile.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/kareem/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/kareem/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/kareem/test/examples.test.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/kareem/test/post.test.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/kareem/test/pre.test.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/kareem/test/wrap.test.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/.coveralls.yml
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/HISTORY.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/Makefile
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/boot_auth.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/conf.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/insert_bench.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/admin.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/aggregation_cursor.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/apm.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/bulk/common.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/bulk/ordered.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/collection.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/command_cursor.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/cursor.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/db.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/gridfs-stream/download.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/gridfs-stream/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/gridfs-stream/upload.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/gridfs/chunk.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/gridfs/grid_store.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/metadata.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/mongos.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/read_preference.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/replset.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/server.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/topology_base.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/url_parser.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/lib/utils.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/CHANGELOG.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/dist/es6-promise.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/dist/es6-promise.min.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/lib/es6-promise.umd.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/lib/es6-promise/-internal.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/lib/es6-promise/asap.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/lib/es6-promise/enumerator.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/lib/es6-promise/polyfill.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/lib/es6-promise/promise.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/lib/es6-promise/promise/all.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/lib/es6-promise/promise/race.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/lib/es6-promise/promise/reject.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/lib/es6-promise/promise/resolve.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/lib/es6-promise/then.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/lib/es6-promise/utils.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/.coveralls.yml
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/HISTORY.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/Makefile
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/TESTING.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/conf.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/auth/gssapi.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/auth/mongocr.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/auth/plain.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/auth/scram.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/auth/sspi.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/auth/x509.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/command_result.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/commands.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/logger.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/connection/utils.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/error.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/tools/smoke_plugin.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/mongos.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/read_preference.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/replset.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/replset_state.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/shared.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/2_4_support.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/2_6_support.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/3_2_support.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/commands.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/shared.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/.npmignore
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/.travis.yml
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/.bin/semver
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/resolve-from/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/resolve-from/license
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/resolve-from/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/resolve-from/readme.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/semver/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/semver/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/semver/bin/semver
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/semver/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/semver/range.bnf
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/semver/semver.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/test/require_optional_tests.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/simple_2_document_limit_toArray.dat
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/test.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/test1.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/.npmignore
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/.travis.yml
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/doc/stream.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/duplex.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/lib/_stream_duplex.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/lib/_stream_passthrough.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/lib/_stream_readable.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/lib/_stream_transform.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/lib/_stream_writable.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/lib/internal/streams/BufferList.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/buffer-shims/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/buffer-shims/license.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/buffer-shims/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/buffer-shims/readme.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/float.patch
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/lib/util.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/test.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/inherits.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/inherits_browser.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/.npmignore
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/.travis.yml
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/Makefile
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/component.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/test.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/process-nextick-args/.travis.yml
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/process-nextick-args/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/process-nextick-args/license.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/process-nextick-args/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/process-nextick-args/readme.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/process-nextick-args/test.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/.npmignore
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/util-deprecate/History.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/util-deprecate/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/util-deprecate/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/util-deprecate/browser.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/util-deprecate/node.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/node_modules/util-deprecate/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/passthrough.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/readable.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/transform.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/writable.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mongodb/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpath/.npmignore
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpath/.travis.yml
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpath/History.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpath/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpath/Makefile
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpath/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpath/bench.js
+#	renamed:    plugins/rs-plugin-5/fonts/font-awesome/index.php -> client/assets/node_modules/mongoose/node_modules/mpath/bench.log
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpath/bench.out
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpath/component.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpath/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpath/lib/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpath/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpath/test/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpromise/.npmignore
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpromise/.travis.yml
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpromise/History.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpromise/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpromise/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpromise/lib/promise.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpromise/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpromise/test/promise.domain.test.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpromise/test/promise.test.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mpromise/test/promises.Aplus.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/.npmignore
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/.travis.yml
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/History.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/Makefile
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/lib/collection/collection.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/lib/collection/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/lib/collection/node.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/lib/env.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/lib/mquery.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/lib/permissions.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/lib/utils.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/changelog.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/browser/bluebird.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/browser/bluebird.min.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/any.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/assert.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/async.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/bind.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/bluebird.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/call_get.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/cancel.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/captured_trace.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/catch_filter.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/context.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/debuggability.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/direct_resolve.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/each.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/errors.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/es5.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/filter.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/finally.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/generators.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/join.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/map.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/method.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/nodeify.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/progress.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/promise.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/promise_array.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/promise_resolver.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/promisify.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/props.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/queue.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/race.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/reduce.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/schedule.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/settle.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/some.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/synchronous_inspection.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/thenables.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/timers.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/using.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/util.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/debug/.jshintrc
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/debug/.npmignore
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/debug/History.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/debug/Makefile
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/debug/Readme.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/debug/bower.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/debug/browser.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/debug/component.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/debug/debug.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/debug/node.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/debug/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/sliced/.npmignore
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/sliced/.travis.yml
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/sliced/History.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/sliced/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/sliced/Makefile
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/sliced/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/sliced/bench.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/sliced/component.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/sliced/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/sliced/lib/sliced.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/sliced/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/node_modules/sliced/test/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/package.json
+#	renamed:    plugins/rs-plugin-5/fonts/index.php -> client/assets/node_modules/mongoose/node_modules/mquery/test/collection/browser.js
+#	renamed:    plugins/rs-plugin-5/fonts/pe-icon-7-stroke/css/index.php -> client/assets/node_modules/mongoose/node_modules/mquery/test/collection/mongo.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/test/collection/node.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/test/env.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/test/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/mquery/test/utils.test.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/ms/.npmignore
+#	new file:   client/assets/node_modules/mongoose/node_modules/ms/History.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/ms/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/ms/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/ms/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/ms/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/muri/.npmignore
+#	new file:   client/assets/node_modules/mongoose/node_modules/muri/.travis.yml
+#	new file:   client/assets/node_modules/mongoose/node_modules/muri/History.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/muri/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/muri/Makefile
+#	new file:   client/assets/node_modules/mongoose/node_modules/muri/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/muri/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/muri/lib/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/muri/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/muri/test/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/regexp-clone/.npmignore
+#	new file:   client/assets/node_modules/mongoose/node_modules/regexp-clone/.travis.yml
+#	new file:   client/assets/node_modules/mongoose/node_modules/regexp-clone/History.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/regexp-clone/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/regexp-clone/Makefile
+#	new file:   client/assets/node_modules/mongoose/node_modules/regexp-clone/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/regexp-clone/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/regexp-clone/package.json
+#	new file:   client/assets/node_modules/mongoose/node_modules/regexp-clone/test/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/sliced/History.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/sliced/LICENSE
+#	new file:   client/assets/node_modules/mongoose/node_modules/sliced/README.md
+#	new file:   client/assets/node_modules/mongoose/node_modules/sliced/index.js
+#	new file:   client/assets/node_modules/mongoose/node_modules/sliced/package.json
+#	new file:   client/assets/node_modules/mongoose/package.json
+#	new file:   client/assets/node_modules/mongoose/release-items.md
+#	new file:   client/assets/node_modules/mongoose/static.js
+#	new file:   client/assets/node_modules/mongoose/website.js
+#	renamed:    plugins/SmoothScroll.js -> client/assets/plugins/SmoothScroll.js
+#	renamed:    plugins/bootstrap-notify/bootstrap-notify.js -> client/assets/plugins/bootstrap-notify/bootstrap-notify.js
+#	renamed:    plugins/bootstrap-notify/bootstrap-notify.min.js -> client/assets/plugins/bootstrap-notify/bootstrap-notify.min.js
+#	renamed:    plugins/charts/Chart.js -> client/assets/plugins/charts/Chart.js
+#	renamed:    plugins/charts/Chart.min.js -> client/assets/plugins/charts/Chart.min.js
+#	renamed:    plugins/charts/LICENSE.md -> client/assets/plugins/charts/LICENSE.md
+#	renamed:    plugins/fullpage/jquery.fullpage.css -> client/assets/plugins/fullpage/jquery.fullpage.css
+#	new file:   client/assets/plugins/fullpage/jquery.fullpage.js
+#	renamed:    plugins/fullpage/jquery.fullpage.min.css -> client/assets/plugins/fullpage/jquery.fullpage.min.css
+#	renamed:    plugins/fullpage/jquery.fullpage.min.css.map -> client/assets/plugins/fullpage/jquery.fullpage.min.css.map
+#	new file:   client/assets/plugins/fullpage/jquery.fullpage.min.js
+#	renamed:    plugins/fullpage/jquery.fullpage.min.js.map -> client/assets/plugins/fullpage/jquery.fullpage.min.js.map
+#	renamed:    plugins/hover/hover-min.css -> client/assets/plugins/hover/hover-min.css
+#	renamed:    plugins/hover/hover.css -> client/assets/plugins/hover/hover.css
+#	renamed:    plugins/isotope/isotope.pkgd.js -> client/assets/plugins/isotope/isotope.pkgd.js
+#	renamed:    plugins/isotope/isotope.pkgd.min.js -> client/assets/plugins/isotope/isotope.pkgd.min.js
+#	renamed:    plugins/jasny-bootstrap/css/jasny-bootstrap.css -> client/assets/plugins/jasny-bootstrap/css/jasny-bootstrap.css
+#	renamed:    plugins/jasny-bootstrap/css/jasny-bootstrap.css.map -> client/assets/plugins/jasny-bootstrap/css/jasny-bootstrap.css.map
+#	renamed:    plugins/jasny-bootstrap/css/jasny-bootstrap.min.css -> client/assets/plugins/jasny-bootstrap/css/jasny-bootstrap.min.css
+#	renamed:    plugins/jasny-bootstrap/js/jasny-bootstrap.js -> client/assets/plugins/jasny-bootstrap/js/jasny-bootstrap.js
+#	renamed:    plugins/jasny-bootstrap/js/jasny-bootstrap.min.js -> client/assets/plugins/jasny-bootstrap/js/jasny-bootstrap.min.js
+#	renamed:    plugins/jquery-1.12.2.min.map -> client/assets/plugins/jquery-1.12.2.min.map
+#	renamed:    plugins/jquery.browser.js -> client/assets/plugins/jquery.browser.js
+#	renamed:    plugins/jquery.countTo.js -> client/assets/plugins/jquery.countTo.js
+#	renamed:    plugins/jquery.countdown/countdownBasic.html -> client/assets/plugins/jquery.countdown/countdownBasic.html
+#	renamed:    plugins/jquery.countdown/countdownGlowing.gif -> client/assets/plugins/jquery.countdown/countdownGlowing.gif
+#	renamed:    plugins/jquery.countdown/countdownLED.png -> client/assets/plugins/jquery.countdown/countdownLED.png
+#	renamed:    plugins/jquery.countdown/jquery.countdown-ar.js -> client/assets/plugins/jquery.countdown/jquery.countdown-ar.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-bg.js -> client/assets/plugins/jquery.countdown/jquery.countdown-bg.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-bn.js -> client/assets/plugins/jquery.countdown/jquery.countdown-bn.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-bs.js -> client/assets/plugins/jquery.countdown/jquery.countdown-bs.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-ca.js -> client/assets/plugins/jquery.countdown/jquery.countdown-ca.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-cs.js -> client/assets/plugins/jquery.countdown/jquery.countdown-cs.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-cy.js -> client/assets/plugins/jquery.countdown/jquery.countdown-cy.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-da.js -> client/assets/plugins/jquery.countdown/jquery.countdown-da.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-de.js -> client/assets/plugins/jquery.countdown/jquery.countdown-de.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-el.js -> client/assets/plugins/jquery.countdown/jquery.countdown-el.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-es.js -> client/assets/plugins/jquery.countdown/jquery.countdown-es.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-et.js -> client/assets/plugins/jquery.countdown/jquery.countdown-et.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-fa.js -> client/assets/plugins/jquery.countdown/jquery.countdown-fa.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-fi.js -> client/assets/plugins/jquery.countdown/jquery.countdown-fi.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-fo.js -> client/assets/plugins/jquery.countdown/jquery.countdown-fo.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-fr.js -> client/assets/plugins/jquery.countdown/jquery.countdown-fr.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-gl.js -> client/assets/plugins/jquery.countdown/jquery.countdown-gl.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-gu.js -> client/assets/plugins/jquery.countdown/jquery.countdown-gu.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-he.js -> client/assets/plugins/jquery.countdown/jquery.countdown-he.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-hr.js -> client/assets/plugins/jquery.countdown/jquery.countdown-hr.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-hu.js -> client/assets/plugins/jquery.countdown/jquery.countdown-hu.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-hy.js -> client/assets/plugins/jquery.countdown/jquery.countdown-hy.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-id.js -> client/assets/plugins/jquery.countdown/jquery.countdown-id.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-is.js -> client/assets/plugins/jquery.countdown/jquery.countdown-is.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-it.js -> client/assets/plugins/jquery.countdown/jquery.countdown-it.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-ja.js -> client/assets/plugins/jquery.countdown/jquery.countdown-ja.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-kn.js -> client/assets/plugins/jquery.countdown/jquery.countdown-kn.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-ko.js -> client/assets/plugins/jquery.countdown/jquery.countdown-ko.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-lt.js -> client/assets/plugins/jquery.countdown/jquery.countdown-lt.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-lv.js -> client/assets/plugins/jquery.countdown/jquery.countdown-lv.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-ml.js -> client/assets/plugins/jquery.countdown/jquery.countdown-ml.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-ms.js -> client/assets/plugins/jquery.countdown/jquery.countdown-ms.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-my.js -> client/assets/plugins/jquery.countdown/jquery.countdown-my.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-nb.js -> client/assets/plugins/jquery.countdown/jquery.countdown-nb.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-nl.js -> client/assets/plugins/jquery.countdown/jquery.countdown-nl.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-pl.js -> client/assets/plugins/jquery.countdown/jquery.countdown-pl.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-pt-BR.js -> client/assets/plugins/jquery.countdown/jquery.countdown-pt-BR.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-ro.js -> client/assets/plugins/jquery.countdown/jquery.countdown-ro.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-ru.js -> client/assets/plugins/jquery.countdown/jquery.countdown-ru.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-sk.js -> client/assets/plugins/jquery.countdown/jquery.countdown-sk.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-sl.js -> client/assets/plugins/jquery.countdown/jquery.countdown-sl.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-sq.js -> client/assets/plugins/jquery.countdown/jquery.countdown-sq.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-sr-SR.js -> client/assets/plugins/jquery.countdown/jquery.countdown-sr-SR.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-sr.js -> client/assets/plugins/jquery.countdown/jquery.countdown-sr.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-sv.js -> client/assets/plugins/jquery.countdown/jquery.countdown-sv.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-th.js -> client/assets/plugins/jquery.countdown/jquery.countdown-th.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-tr.js -> client/assets/plugins/jquery.countdown/jquery.countdown-tr.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-uk.js -> client/assets/plugins/jquery.countdown/jquery.countdown-uk.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-ur.js -> client/assets/plugins/jquery.countdown/jquery.countdown-ur.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-uz.js -> client/assets/plugins/jquery.countdown/jquery.countdown-uz.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-vi.js -> client/assets/plugins/jquery.countdown/jquery.countdown-vi.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-zh-CN.js -> client/assets/plugins/jquery.countdown/jquery.countdown-zh-CN.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown-zh-TW.js -> client/assets/plugins/jquery.countdown/jquery.countdown-zh-TW.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown.css -> client/assets/plugins/jquery.countdown/jquery.countdown.css
+#	renamed:    plugins/jquery.countdown/jquery.countdown.js -> client/assets/plugins/jquery.countdown/jquery.countdown.js
+#	renamed:    plugins/jquery.countdown/jquery.countdown.min.js -> client/assets/plugins/jquery.countdown/jquery.countdown.min.js
+#	renamed:    plugins/jquery.countdown/jquery.plugin.js -> client/assets/plugins/jquery.countdown/jquery.plugin.js
+#	renamed:    plugins/jquery.countdown/jquery.plugin.min.js -> client/assets/plugins/jquery.countdown/jquery.plugin.min.js
+#	renamed:    plugins/jquery.js -> client/assets/plugins/jquery.js
+#	renamed:    plugins/jquery.knob.min.js -> client/assets/plugins/jquery.knob.min.js
+#	renamed:    plugins/jquery.min.js -> client/assets/plugins/jquery.min.js
+#	renamed:    plugins/jquery.parallax-1.1.3.js -> client/assets/plugins/jquery.parallax-1.1.3.js
+#	renamed:    plugins/jquery.validate.js -> client/assets/plugins/jquery.validate.js
+#	renamed:    plugins/magnific-popup/jquery.magnific-popup.js -> client/assets/plugins/magnific-popup/jquery.magnific-popup.js
+#	renamed:    plugins/magnific-popup/jquery.magnific-popup.min.js -> client/assets/plugins/magnific-popup/jquery.magnific-popup.min.js
+#	renamed:    plugins/magnific-popup/magnific-popup.css -> client/assets/plugins/magnific-popup/magnific-popup.css
+#	renamed:    plugins/modernizr.js -> client/assets/plugins/modernizr.js
+#	renamed:    plugins/morphext/morphext.css -> client/assets/plugins/morphext/morphext.css
+#	renamed:    plugins/morphext/morphext.js -> client/assets/plugins/morphext/morphext.js
+#	renamed:    plugins/morphext/morphext.min.js -> client/assets/plugins/morphext/morphext.min.js
+#	renamed:    plugins/owl-carousel/AjaxLoader.gif -> client/assets/plugins/owl-carousel/AjaxLoader.gif
+#	renamed:    plugins/owl-carousel/grabbing.png -> client/assets/plugins/owl-carousel/grabbing.png
+#	renamed:    plugins/owl-carousel/owl.carousel.css -> client/assets/plugins/owl-carousel/owl.carousel.css
+#	renamed:    plugins/owl-carousel/owl.carousel.js -> client/assets/plugins/owl-carousel/owl.carousel.js
+#	renamed:    plugins/owl-carousel/owl.carousel.min.js -> client/assets/plugins/owl-carousel/owl.carousel.min.js
+#	renamed:    plugins/owl-carousel/owl.theme.css -> client/assets/plugins/owl-carousel/owl.theme.css
+#	renamed:    plugins/owl-carousel/owl.transitions.css -> client/assets/plugins/owl-carousel/owl.transitions.css
+#	renamed:    plugins/pace/LICENSE.txt -> client/assets/plugins/pace/LICENSE.txt
+#	renamed:    plugins/pace/pace.min.js -> client/assets/plugins/pace/pace.min.js
+#	renamed:    plugins/rs-plugin-5/assets/coloredbg.png -> client/assets/plugins/rs-plugin-5/assets/coloredbg.png
+#	renamed:    plugins/rs-plugin-5/assets/gridtile.png -> client/assets/plugins/rs-plugin-5/assets/gridtile.png
+#	renamed:    plugins/rs-plugin-5/assets/gridtile_3x3.png -> client/assets/plugins/rs-plugin-5/assets/gridtile_3x3.png
+#	renamed:    plugins/rs-plugin-5/assets/gridtile_3x3_white.png -> client/assets/plugins/rs-plugin-5/assets/gridtile_3x3_white.png
+#	renamed:    plugins/rs-plugin-5/assets/gridtile_white.png -> client/assets/plugins/rs-plugin-5/assets/gridtile_white.png
+#	renamed:    plugins/rs-plugin-5/assets/loader.gif -> client/assets/plugins/rs-plugin-5/assets/loader.gif
+#	renamed:    plugins/rs-plugin-5/assets/sources/fb.png -> client/assets/plugins/rs-plugin-5/assets/sources/fb.png
+#	renamed:    plugins/rs-plugin-5/assets/sources/fr.png -> client/assets/plugins/rs-plugin-5/assets/sources/fr.png
+#	renamed:    plugins/rs-plugin-5/assets/sources/ig.png -> client/assets/plugins/rs-plugin-5/assets/sources/ig.png
+#	renamed:    plugins/rs-plugin-5/assets/sources/post.png -> client/assets/plugins/rs-plugin-5/assets/sources/post.png
+#	renamed:    plugins/rs-plugin-5/assets/sources/revolution_slide1.png -> client/assets/plugins/rs-plugin-5/assets/sources/revolution_slide1.png
+#	renamed:    plugins/rs-plugin-5/assets/sources/revolution_slide2.png -> client/assets/plugins/rs-plugin-5/assets/sources/revolution_slide2.png
+#	renamed:    plugins/rs-plugin-5/assets/sources/tw.png -> client/assets/plugins/rs-plugin-5/assets/sources/tw.png
+#	renamed:    plugins/rs-plugin-5/assets/sources/vm.png -> client/assets/plugins/rs-plugin-5/assets/sources/vm.png
+#	renamed:    plugins/rs-plugin-5/assets/sources/wc.png -> client/assets/plugins/rs-plugin-5/assets/sources/wc.png
+#	renamed:    plugins/rs-plugin-5/assets/sources/yt.png -> client/assets/plugins/rs-plugin-5/assets/sources/yt.png
+#	renamed:    plugins/rs-plugin-5/css/closedhand.cur -> client/assets/plugins/rs-plugin-5/css/closedhand.cur
+#	renamed:    plugins/rs-plugin-5/fonts/pe-icon-7-stroke/fonts/index.php -> client/assets/plugins/rs-plugin-5/css/index.php
+#	new file:   client/assets/plugins/rs-plugin-5/css/layers.css
+#	renamed:    plugins/rs-plugin-5/css/navigation-skins/ares.css -> client/assets/plugins/rs-plugin-5/css/navigation-skins/ares.css
+#	new file:   client/assets/plugins/rs-plugin-5/css/navigation-skins/custom.css
+#	new file:   client/assets/plugins/rs-plugin-5/css/navigation-skins/dione.css
+#	new file:   client/assets/plugins/rs-plugin-5/css/navigation-skins/erinyen.css
+#	new file:   client/assets/plugins/rs-plugin-5/css/navigation-skins/gyges.css
+#	new file:   client/assets/plugins/rs-plugin-5/css/navigation-skins/hades.css
+#	new file:   client/assets/plugins/rs-plugin-5/css/navigation-skins/hebe.css
+#	new file:   client/assets/plugins/rs-plugin-5/css/navigation-skins/hephaistos.css
+#	new file:   client/assets/plugins/rs-plugin-5/css/navigation-skins/hermes.css
+#	new file:   client/assets/plugins/rs-plugin-5/css/navigation-skins/hesperiden.css
+#	renamed:    plugins/rs-plugin-5/css/navigation-skins/metis.css -> client/assets/plugins/rs-plugin-5/css/navigation-skins/metis.css
+#	new file:   client/assets/plugins/rs-plugin-5/css/navigation-skins/persephone.css
+#	new file:   client/assets/plugins/rs-plugin-5/css/navigation-skins/uranus.css
+#	new file:   client/assets/plugins/rs-plugin-5/css/navigation-skins/zeus.css
+#	renamed:    plugins/rs-plugin-5/css/navigation.css -> client/assets/plugins/rs-plugin-5/css/navigation.css
+#	renamed:    plugins/rs-plugin-5/css/openhand.cur -> client/assets/plugins/rs-plugin-5/css/openhand.cur
+#	new file:   client/assets/plugins/rs-plugin-5/css/settings.css
+#	renamed:    plugins/rs-plugin-5/fonts/font-awesome/css/font-awesome.css -> client/assets/plugins/rs-plugin-5/fonts/font-awesome/css/font-awesome.css
+#	renamed:    plugins/rs-plugin-5/fonts/font-awesome/css/font-awesome.min.css -> client/assets/plugins/rs-plugin-5/fonts/font-awesome/css/font-awesome.min.css
+#	renamed:    plugins/rs-plugin-5/fonts/font-awesome/fonts/FontAwesome.otf -> client/assets/plugins/rs-plugin-5/fonts/font-awesome/fonts/FontAwesome.otf
+#	renamed:    plugins/rs-plugin-5/fonts/font-awesome/fonts/fontawesome-webfont.eot -> client/assets/plugins/rs-plugin-5/fonts/font-awesome/fonts/fontawesome-webfont.eot
+#	renamed:    plugins/rs-plugin-5/fonts/font-awesome/fonts/fontawesome-webfont.svg -> client/assets/plugins/rs-plugin-5/fonts/font-awesome/fonts/fontawesome-webfont.svg
+#	renamed:    plugins/rs-plugin-5/fonts/font-awesome/fonts/fontawesome-webfont.ttf -> client/assets/plugins/rs-plugin-5/fonts/font-awesome/fonts/fontawesome-webfont.ttf
+#	renamed:    plugins/rs-plugin-5/fonts/font-awesome/fonts/fontawesome-webfont.woff -> client/assets/plugins/rs-plugin-5/fonts/font-awesome/fonts/fontawesome-webfont.woff
+#	renamed:    plugins/rs-plugin-5/fonts/font-awesome/fonts/fontawesome-webfont.woff2 -> client/assets/plugins/rs-plugin-5/fonts/font-awesome/fonts/fontawesome-webfont.woff2
+#	renamed:    plugins/rs-plugin-5/fonts/pe-icon-7-stroke/index.php -> client/assets/plugins/rs-plugin-5/fonts/font-awesome/index.php
+#	renamed:    plugins/rs-plugin-5/fonts/revicons/index.php -> client/assets/plugins/rs-plugin-5/fonts/index.php
+#	new file:   client/assets/plugins/rs-plugin-5/fonts/pe-icon-7-stroke/css/helper.css
+#	renamed:    plugins/rs-plugin-5/index.php -> client/assets/plugins/rs-plugin-5/fonts/pe-icon-7-stroke/css/index.php
+#	new file:   client/assets/plugins/rs-plugin-5/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css
+#	renamed:    plugins/rs-plugin-5/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.eot -> client/assets/plugins/rs-plugin-5/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.eot
+#	new file:   client/assets/plugins/rs-plugin-5/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.svg
+#	renamed:    plugins/rs-plugin-5/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.ttf -> client/assets/plugins/rs-plugin-5/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.ttf
+#	renamed:    plugins/rs-plugin-5/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.woff -> client/assets/plugins/rs-plugin-5/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.woff
+#	renamed:    plugins/rs-plugin-5/js/extensions/index.php -> client/assets/plugins/rs-plugin-5/fonts/pe-icon-7-stroke/fonts/index.php
+#	renamed:    plugins/rs-plugin-5/js/extensions/source/index.php -> client/assets/plugins/rs-plugin-5/fonts/pe-icon-7-stroke/index.php
+#	renamed:    plugins/rs-plugin-5/js/index.php -> client/assets/plugins/rs-plugin-5/fonts/revicons/index.php
+#	renamed:    plugins/rs-plugin-5/fonts/revicons/revicons.eot -> client/assets/plugins/rs-plugin-5/fonts/revicons/revicons.eot
+#	renamed:    plugins/rs-plugin-5/fonts/revicons/revicons.svg -> client/assets/plugins/rs-plugin-5/fonts/revicons/revicons.svg
+#	renamed:    plugins/rs-plugin-5/fonts/revicons/revicons.ttf -> client/assets/plugins/rs-plugin-5/fonts/revicons/revicons.ttf
+#	renamed:    plugins/rs-plugin-5/fonts/revicons/revicons.woff -> client/assets/plugins/rs-plugin-5/fonts/revicons/revicons.woff
+#	renamed:    plugins/rs-plugin-5/js/source/index.php -> client/assets/plugins/rs-plugin-5/index.php
+#	renamed:    temp.html -> client/assets/plugins/rs-plugin-5/js/extensions/index.php
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/revolution.extension.actions.min.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/revolution.extension.carousel.min.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/revolution.extension.kenburn.min.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/revolution.extension.layeranimation.min.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/revolution.extension.migration.min.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/revolution.extension.navigation.min.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/revolution.extension.parallax.min.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/revolution.extension.slideanims.min.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/revolution.extension.video.min.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/source/index.php
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/source/revolution.extension.actions.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/source/revolution.extension.carousel.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/source/revolution.extension.kenburn.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/source/revolution.extension.layeranimation.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/source/revolution.extension.migration.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/source/revolution.extension.navigation.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/source/revolution.extension.parallax.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/source/revolution.extension.slideanims.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/extensions/source/revolution.extension.video.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/index.php
+#	renamed:    plugins/rs-plugin-5/js/jquery.themepunch.enablelog.js -> client/assets/plugins/rs-plugin-5/js/jquery.themepunch.enablelog.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/jquery.themepunch.revolution.min.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/jquery.themepunch.tools.min.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/source/index.php
+#	renamed:    plugins/rs-plugin-5/js/source/jquery.themepunch.enablelog.js -> client/assets/plugins/rs-plugin-5/js/source/jquery.themepunch.enablelog.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/source/jquery.themepunch.revolution.js
+#	new file:   client/assets/plugins/rs-plugin-5/js/source/jquery.themepunch.tools.min.js
+#	renamed:    plugins/rs-plugin/assets/arrow_large_left.png -> client/assets/plugins/rs-plugin/assets/arrow_large_left.png
+#	renamed:    plugins/rs-plugin/assets/arrow_large_right.png -> client/assets/plugins/rs-plugin/assets/arrow_large_right.png
+#	renamed:    plugins/rs-plugin/assets/arrow_left.png -> client/assets/plugins/rs-plugin/assets/arrow_left.png
+#	renamed:    plugins/rs-plugin/assets/arrow_left2.png -> client/assets/plugins/rs-plugin/assets/arrow_left2.png
+#	renamed:    plugins/rs-plugin/assets/arrow_right.png -> client/assets/plugins/rs-plugin/assets/arrow_right.png
+#	renamed:    plugins/rs-plugin/assets/arrow_right2.png -> client/assets/plugins/rs-plugin/assets/arrow_right2.png
+#	renamed:    plugins/rs-plugin/assets/arrowleft.png -> client/assets/plugins/rs-plugin/assets/arrowleft.png
+#	renamed:    plugins/rs-plugin/assets/arrowright.png -> client/assets/plugins/rs-plugin/assets/arrowright.png
+#	renamed:    plugins/rs-plugin/assets/arrows.psd -> client/assets/plugins/rs-plugin/assets/arrows.psd
+#	renamed:    plugins/rs-plugin/assets/black50.png -> client/assets/plugins/rs-plugin/assets/black50.png
+#	renamed:    plugins/rs-plugin/assets/boxed_bgtile.png -> client/assets/plugins/rs-plugin/assets/boxed_bgtile.png
+#	renamed:    plugins/rs-plugin/assets/bullet.png -> client/assets/plugins/rs-plugin/assets/bullet.png
+#	renamed:    plugins/rs-plugin/assets/bullet_boxed.png -> client/assets/plugins/rs-plugin/assets/bullet_boxed.png
+#	renamed:    plugins/rs-plugin/assets/bullets.png -> client/assets/plugins/rs-plugin/assets/bullets.png
+#	renamed:    plugins/rs-plugin/assets/bullets.psd -> client/assets/plugins/rs-plugin/assets/bullets.psd
+#	renamed:    plugins/rs-plugin/assets/bullets2.png -> client/assets/plugins/rs-plugin/assets/bullets2.png
+#	renamed:    plugins/rs-plugin/assets/coloredbg.png -> client/assets/plugins/rs-plugin/assets/coloredbg.png
+#	renamed:    plugins/rs-plugin/assets/grain.png -> client/assets/plugins/rs-plugin/assets/grain.png
+#	renamed:    plugins/rs-plugin/assets/gridtile.png -> client/assets/plugins/rs-plugin/assets/gridtile.png
+#	renamed:    plugins/rs-plugin/assets/gridtile_3x3.png -> client/assets/plugins/rs-plugin/assets/gridtile_3x3.png
+#	renamed:    plugins/rs-plugin/assets/gridtile_3x3_white.png -> client/assets/plugins/rs-plugin/assets/gridtile_3x3_white.png
+#	renamed:    plugins/rs-plugin/assets/gridtile_white.png -> client/assets/plugins/rs-plugin/assets/gridtile_white.png
+#	renamed:    plugins/rs-plugin/assets/large_left.png -> client/assets/plugins/rs-plugin/assets/large_left.png
+#	renamed:    plugins/rs-plugin/assets/large_right.png -> client/assets/plugins/rs-plugin/assets/large_right.png
+#	renamed:    plugins/rs-plugin/assets/loader.gif -> client/assets/plugins/rs-plugin/assets/loader.gif
+#	renamed:    plugins/rs-plugin/assets/loader2.gif -> client/assets/plugins/rs-plugin/assets/loader2.gif
+#	renamed:    plugins/rs-plugin/assets/navigdots.png -> client/assets/plugins/rs-plugin/assets/navigdots.png
+#	renamed:    plugins/rs-plugin/assets/navigdots_bgtile.png -> client/assets/plugins/rs-plugin/assets/navigdots_bgtile.png
+#	renamed:    plugins/rs-plugin/assets/shadow1.png -> client/assets/plugins/rs-plugin/assets/shadow1.png
+#	renamed:    plugins/rs-plugin/assets/shadow2.png -> client/assets/plugins/rs-plugin/assets/shadow2.png
+#	renamed:    plugins/rs-plugin/assets/shadow3.png -> client/assets/plugins/rs-plugin/assets/shadow3.png
+#	renamed:    plugins/rs-plugin/assets/small_arrows.psd -> client/assets/plugins/rs-plugin/assets/small_arrows.psd
+#	renamed:    plugins/rs-plugin/assets/small_left.png -> client/assets/plugins/rs-plugin/assets/small_left.png
+#	renamed:    plugins/rs-plugin/assets/small_left_boxed.png -> client/assets/plugins/rs-plugin/assets/small_left_boxed.png
+#	renamed:    plugins/rs-plugin/assets/small_right.png -> client/assets/plugins/rs-plugin/assets/small_right.png
+#	renamed:    plugins/rs-plugin/assets/small_right_boxed.png -> client/assets/plugins/rs-plugin/assets/small_right_boxed.png
+#	renamed:    plugins/rs-plugin/assets/timer.png -> client/assets/plugins/rs-plugin/assets/timer.png
+#	renamed:    plugins/rs-plugin/assets/timerdot.png -> client/assets/plugins/rs-plugin/assets/timerdot.png
+#	renamed:    plugins/rs-plugin/assets/transparent.jpg -> client/assets/plugins/rs-plugin/assets/transparent.jpg
+#	renamed:    plugins/rs-plugin/assets/white50.png -> client/assets/plugins/rs-plugin/assets/white50.png
+#	renamed:    plugins/rs-plugin/css/settings-ie8.css -> client/assets/plugins/rs-plugin/css/settings-ie8.css
+#	renamed:    plugins/rs-plugin/css/settings.css -> client/assets/plugins/rs-plugin/css/settings.css
+#	renamed:    plugins/rs-plugin/font/revicons.eot -> client/assets/plugins/rs-plugin/font/revicons.eot
+#	renamed:    plugins/rs-plugin/font/revicons.svg -> client/assets/plugins/rs-plugin/font/revicons.svg
+#	renamed:    plugins/rs-plugin/font/revicons.ttf -> client/assets/plugins/rs-plugin/font/revicons.ttf
+#	renamed:    plugins/rs-plugin/font/revicons.woff -> client/assets/plugins/rs-plugin/font/revicons.woff
+#	renamed:    plugins/rs-plugin/images/decor_inside.png -> client/assets/plugins/rs-plugin/images/decor_inside.png
+#	renamed:    plugins/rs-plugin/images/decor_inside_white.png -> client/assets/plugins/rs-plugin/images/decor_inside_white.png
+#	renamed:    plugins/rs-plugin/images/decor_testimonial.png -> client/assets/plugins/rs-plugin/images/decor_testimonial.png
+#	renamed:    plugins/rs-plugin/images/gradient/g30.png -> client/assets/plugins/rs-plugin/images/gradient/g30.png
+#	renamed:    plugins/rs-plugin/images/gradient/g40.png -> client/assets/plugins/rs-plugin/images/gradient/g40.png
+#	renamed:    plugins/rs-plugin/js/jquery.themepunch.enablelog.js -> client/assets/plugins/rs-plugin/js/jquery.themepunch.enablelog.js
+#	renamed:    plugins/rs-plugin/js/jquery.themepunch.revolution.js -> client/assets/plugins/rs-plugin/js/jquery.themepunch.revolution.js
+#	renamed:    plugins/rs-plugin/js/jquery.themepunch.revolution.min.js -> client/assets/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js
+#	renamed:    plugins/rs-plugin/js/jquery.themepunch.tools.min.js -> client/assets/plugins/rs-plugin/js/jquery.themepunch.tools.min.js
+#	renamed:    plugins/slimscroll/jquery.slimscroll.js -> client/assets/plugins/slimscroll/jquery.slimscroll.js
+#	renamed:    plugins/slimscroll/jquery.slimscroll.min.js -> client/assets/plugins/slimscroll/jquery.slimscroll.min.js
+#	renamed:    plugins/vide/jquery.vide.js -> client/assets/plugins/vide/jquery.vide.js
+#	renamed:    plugins/vide/jquery.vide.min.js -> client/assets/plugins/vide/jquery.vide.min.js
+#	renamed:    plugins/waypoints/jquery.waypoints.js -> client/assets/plugins/waypoints/jquery.waypoints.js
+#	renamed:    plugins/waypoints/jquery.waypoints.min.js -> client/assets/plugins/waypoints/jquery.waypoints.min.js
+#	renamed:    videos/Walk.mp4 -> client/assets/videos/Walk.mp4
+#	new file:   client/static/angular/angular-route.min.js
+#	new file:   client/static/app.js
+#	new file:   client/static/factories/userFactory.js
+#	new file:   client/static/index.html
+#	renamed:    pricing.html -> client/static/partials/pricing.html
+#	renamed:    views/register.html -> client/static/partials/register.html
+#	renamed:    shop-checkout-completed.html -> client/static/partials/shop-checkout-completed.html
+#	renamed:    shop-checkout-payment.html -> client/static/partials/shop-checkout-payment.html
+#	renamed:    shop-checkout-review.html -> client/static/partials/shop-checkout-review.html
+#	renamed:    shop-checkout.html -> client/static/partials/shop-checkout.html
+#	renamed:    show-more-gallery.html -> client/static/partials/show-more-gallery.html
+#	renamed:    show_profile.html -> client/static/partials/show_profile.html
+#	new file:   client/static/partials/temp.html
+#	renamed:    testing.html -> client/static/partials/testing.html
+#	new file:   node_modules/angular/LICENSE.md
+#	new file:   node_modules/angular/README.md
+#	new file:   node_modules/angular/angular-csp.css
+#	new file:   node_modules/angular/angular.js
+#	new file:   node_modules/angular/angular.min.js
+#	new file:   node_modules/angular/angular.min.js.gzip
+#	new file:   node_modules/angular/angular.min.js.map
+#	new file:   node_modules/angular/bower.json
+#	new file:   node_modules/angular/index.js
+#	new file:   node_modules/angular/package.json
+#	modified:   node_modules/body-parser/node_modules/debug/node_modules/ms/package.json
+#	modified:   node_modules/body-parser/node_modules/http-errors/node_modules/inherits/package.json
+#	modified:   node_modules/body-parser/node_modules/iconv-lite/package.json
+#	modified:   node_modules/body-parser/node_modules/on-finished/node_modules/ee-first/package.json
+#	modified:   node_modules/body-parser/node_modules/qs/package.json
+#	modified:   node_modules/body-parser/node_modules/type-is/node_modules/media-typer/package.json
+#	new file:   node_modules/express-session/HISTORY.md
+#	new file:   node_modules/express-session/LICENSE
+#	new file:   node_modules/express-session/README.md
+#	new file:   node_modules/express-session/index.js
+#	new file:   node_modules/express-session/node_modules/cookie-signature/.npmignore
+#	new file:   node_modules/express-session/node_modules/cookie-signature/History.md
+#	new file:   node_modules/express-session/node_modules/cookie-signature/Readme.md
+#	new file:   node_modules/express-session/node_modules/cookie-signature/index.js
+#	new file:   node_modules/express-session/node_modules/cookie-signature/package.json
+#	new file:   node_modules/express-session/node_modules/cookie/HISTORY.md
+#	new file:   node_modules/express-session/node_modules/cookie/LICENSE
+#	new file:   node_modules/express-session/node_modules/cookie/README.md
+#	new file:   node_modules/express-session/node_modules/cookie/index.js
+#	new file:   node_modules/express-session/node_modules/cookie/package.json
+#	new file:   node_modules/express-session/node_modules/crc/LICENSE
+#	new file:   node_modules/express-session/node_modules/crc/README.md
+#	new file:   node_modules/express-session/node_modules/crc/lib/crc1.js
+#	new file:   node_modules/express-session/node_modules/crc/lib/crc16.js
+#	new file:   node_modules/express-session/node_modules/crc/lib/crc16_ccitt.js
+#	new file:   node_modules/express-session/node_modules/crc/lib/crc16_kermit.js
+#	new file:   node_modules/express-session/node_modules/crc/lib/crc16_modbus.js
+#	new file:   node_modules/express-session/node_modules/crc/lib/crc16_xmodem.js
+#	new file:   node_modules/express-session/node_modules/crc/lib/crc24.js
+#	new file:   node_modules/express-session/node_modules/crc/lib/crc32.js
+#	new file:   node_modules/express-session/node_modules/crc/lib/crc8.js
+#	new file:   node_modules/express-session/node_modules/crc/lib/crc8_1wire.js
+#	new file:   node_modules/express-session/node_modules/crc/lib/define_crc.js
+#	new file:   node_modules/express-session/node_modules/crc/lib/index.js
+#	new file:   node_modules/express-session/node_modules/crc/package.json
+#	new file:   node_modules/express-session/node_modules/debug/.jshintrc
+#	new file:   node_modules/express-session/node_modules/debug/.npmignore
+#	new file:   node_modules/express-session/node_modules/debug/History.md
+#	new file:   node_modules/express-session/node_modules/debug/Makefile
+#	new file:   node_modules/express-session/node_modules/debug/Readme.md
+#	new file:   node_modules/express-session/node_modules/debug/bower.json
+#	new file:   node_modules/express-session/node_modules/debug/browser.js
+#	new file:   node_modules/express-session/node_modules/debug/component.json
+#	new file:   node_modules/express-session/node_modules/debug/debug.js
+#	new file:   node_modules/express-session/node_modules/debug/node.js
+#	new file:   node_modules/express-session/node_modules/debug/node_modules/ms/.npmignore
+#	new file:   node_modules/express-session/node_modules/debug/node_modules/ms/History.md
+#	new file:   node_modules/express-session/node_modules/debug/node_modules/ms/LICENSE
+#	new file:   node_modules/express-session/node_modules/debug/node_modules/ms/README.md
+#	new file:   node_modules/express-session/node_modules/debug/node_modules/ms/index.js
+#	new file:   node_modules/express-session/node_modules/debug/node_modules/ms/package.json
+#	new file:   node_modules/express-session/node_modules/debug/package.json
+#	new file:   node_modules/express-session/node_modules/depd/History.md
+#	new file:   node_modules/express-session/node_modules/depd/LICENSE
+#	new file:   node_modules/express-session/node_modules/depd/Readme.md
+#	new file:   node_modules/express-session/node_modules/depd/index.js
+#	new file:   node_modules/express-session/node_modules/depd/lib/browser/index.js
+#	new file:   node_modules/express-session/node_modules/depd/lib/compat/buffer-concat.js
+#	new file:   node_modules/express-session/node_modules/depd/lib/compat/callsite-tostring.js
+#	new file:   node_modules/express-session/node_modules/depd/lib/compat/event-listener-count.js
+#	new file:   node_modules/express-session/node_modules/depd/lib/compat/index.js
+#	new file:   node_modules/express-session/node_modules/depd/package.json
+#	new file:   node_modules/express-session/node_modules/on-headers/HISTORY.md
+#	new file:   node_modules/express-session/node_modules/on-headers/LICENSE
+#	new file:   node_modules/express-session/node_modules/on-headers/README.md
+#	new file:   node_modules/express-session/node_modules/on-headers/index.js
+#	new file:   node_modules/express-session/node_modules/on-headers/package.json
+#	new file:   node_modules/express-session/node_modules/parseurl/HISTORY.md
+#	new file:   node_modules/express-session/node_modules/parseurl/LICENSE
+#	new file:   node_modules/express-session/node_modules/parseurl/README.md
+#	new file:   node_modules/express-session/node_modules/parseurl/index.js
+#	new file:   node_modules/express-session/node_modules/parseurl/package.json
+#	new file:   node_modules/express-session/node_modules/uid-safe/HISTORY.md
+#	new file:   node_modules/express-session/node_modules/uid-safe/LICENSE
+#	new file:   node_modules/express-session/node_modules/uid-safe/README.md
+#	new file:   node_modules/express-session/node_modules/uid-safe/index.js
+#	new file:   node_modules/express-session/node_modules/uid-safe/node_modules/base64-url/LICENSE
+#	new file:   node_modules/express-session/node_modules/uid-safe/node_modules/base64-url/README.md
+#	new file:   node_modules/express-session/node_modules/uid-safe/node_modules/base64-url/index.js
+#	new file:   node_modules/express-session/node_modules/uid-safe/node_modules/base64-url/package.json
+#	new file:   node_modules/express-session/node_modules/uid-safe/node_modules/random-bytes/HISTORY.md
+#	new file:   node_modules/express-session/node_modules/uid-safe/node_modules/random-bytes/LICENSE
+#	new file:   node_modules/express-session/node_modules/uid-safe/node_modules/random-bytes/README.md
+#	new file:   node_modules/express-session/node_modules/uid-safe/node_modules/random-bytes/index.js
+#	new file:   node_modules/express-session/node_modules/uid-safe/node_modules/random-bytes/package.json
+#	new file:   node_modules/express-session/node_modules/uid-safe/package.json
+#	new file:   node_modules/express-session/node_modules/utils-merge/.travis.yml
+#	new file:   node_modules/express-session/node_modules/utils-merge/LICENSE
+#	new file:   node_modules/express-session/node_modules/utils-merge/README.md
+#	new file:   node_modules/express-session/node_modules/utils-merge/index.js
+#	new file:   node_modules/express-session/node_modules/utils-merge/package.json
+#	new file:   node_modules/express-session/package.json
+#	new file:   node_modules/express-session/session/cookie.js
+#	new file:   node_modules/express-session/session/memory.js
+#	new file:   node_modules/express-session/session/session.js
+#	new file:   node_modules/express-session/session/store.js
+#	modified:   node_modules/express/node_modules/accepts/node_modules/negotiator/package.json
+#	modified:   node_modules/express/node_modules/cookie-signature/package.json
+#	modified:   node_modules/express/node_modules/merge-descriptors/package.json
+#	modified:   node_modules/express/node_modules/on-finished/node_modules/ee-first/package.json
+#	modified:   node_modules/express/node_modules/path-to-regexp/package.json
+#	modified:   node_modules/express/node_modules/qs/package.json
+#	modified:   node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/package.json
+#	modified:   node_modules/express/node_modules/utils-merge/package.json
+#	modified:   node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/package.json
+#	modified:   node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/.bin/semver
+#	new file:   node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/node_modules/require_optional/node_modules/.bin/semver.cmd
+#	modified:   node_modules/mongoose/node_modules/mongodb/node_modules/readable-stream/package.json
+#	modified:   node_modules/mongoose/node_modules/mongodb/package.json
+#	modified:   node_modules/mongoose/node_modules/muri/package.json
+#	deleted:    plugins/fullpage/jquery.fullpage.js
+#	deleted:    plugins/fullpage/jquery.fullpage.min.js
+#	deleted:    plugins/rs-plugin-5/css/layers.css
+#	deleted:    plugins/rs-plugin-5/css/navigation-skins/custom.css
+#	deleted:    plugins/rs-plugin-5/css/navigation-skins/dione.css
+#	deleted:    plugins/rs-plugin-5/css/navigation-skins/erinyen.css
+#	deleted:    plugins/rs-plugin-5/css/navigation-skins/gyges.css
+#	deleted:    plugins/rs-plugin-5/css/navigation-skins/hades.css
+#	deleted:    plugins/rs-plugin-5/css/navigation-skins/hebe.css
+#	deleted:    plugins/rs-plugin-5/css/navigation-skins/hephaistos.css
+#	deleted:    plugins/rs-plugin-5/css/navigation-skins/hermes.css
+#	deleted:    plugins/rs-plugin-5/css/navigation-skins/hesperiden.css
+#	deleted:    plugins/rs-plugin-5/css/navigation-skins/persephone.css
+#	deleted:    plugins/rs-plugin-5/css/navigation-skins/uranus.css
+#	deleted:    plugins/rs-plugin-5/css/navigation-skins/zeus.css
+#	deleted:    plugins/rs-plugin-5/css/settings.css
+#	deleted:    plugins/rs-plugin-5/fonts/pe-icon-7-stroke/css/helper.css
+#	deleted:    plugins/rs-plugin-5/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css
+#	deleted:    plugins/rs-plugin-5/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.svg
+#	deleted:    plugins/rs-plugin-5/js/extensions/revolution.extension.actions.min.js
+#	deleted:    plugins/rs-plugin-5/js/extensions/revolution.extension.carousel.min.js
+#	deleted:    plugins/rs-plugin-5/js/extensions/revolution.extension.kenburn.min.js
+#	deleted:    plugins/rs-plugin-5/js/extensions/revolution.extension.layeranimation.min.js
+#	deleted:    plugins/rs-plugin-5/js/extensions/revolution.extension.migration.min.js
+#	deleted:    plugins/rs-plugin-5/js/extensions/revolution.extension.navigation.min.js
+#	deleted:    plugins/rs-plugin-5/js/extensions/revolution.extension.parallax.min.js
+#	deleted:    plugins/rs-plugin-5/js/extensions/revolution.extension.slideanims.min.js
+#	deleted:    plugins/rs-plugin-5/js/extensions/revolution.extension.video.min.js
+#	deleted:    plugins/rs-plugin-5/js/extensions/source/revolution.extension.actions.js
+#	deleted:    plugins/rs-plugin-5/js/extensions/source/revolution.extension.carousel.js
+#	deleted:    plugins/rs-plugin-5/js/extensions/source/revolution.extension.kenburn.js
+#	deleted:    plugins/rs-plugin-5/js/extensions/source/revolution.extension.layeranimation.js
+#	deleted:    plugins/rs-plugin-5/js/extensions/source/revolution.extension.migration.js
+#	deleted:    plugins/rs-plugin-5/js/extensions/source/revolution.extension.navigation.js
+#	deleted:    plugins/rs-plugin-5/js/extensions/source/revolution.extension.parallax.js
+#	deleted:    plugins/rs-plugin-5/js/extensions/source/revolution.extension.slideanims.js
+#	deleted:    plugins/rs-plugin-5/js/extensions/source/revolution.extension.video.js
+#	deleted:    plugins/rs-plugin-5/js/jquery.themepunch.revolution.min.js
+#	deleted:    plugins/rs-plugin-5/js/jquery.themepunch.tools.min.js
+#	deleted:    plugins/rs-plugin-5/js/source/jquery.themepunch.revolution.js
+#	deleted:    plugins/rs-plugin-5/js/source/jquery.themepunch.tools.min.js
+#	deleted:    register.html
+#	new file:   server.js
+#	new file:   server/Config/mongoose.js
+#	new file:   server/Config/routes.js
+#	new file:   server/Controllers/Users.js
+#	new file:   server/Models/User.js
+#	deleted:    views/welcome.html
+#
+

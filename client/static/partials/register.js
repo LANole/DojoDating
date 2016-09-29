@@ -1,7 +1,7 @@
 <div ng-controller='userController'>
 <h1>Welcome</h1>
 		
-		<form ng-submit="create(user)">
+		<form method="post">
 			<fieldset>
 				<legend>Register</legend>
 				<p>
@@ -26,7 +26,7 @@
 					<input type="date" name="dob" max="{{minAge | date:'yyyy-MM-dd'}}" ng-model='user.dob'</input>
 				</p>
 				<p>
-					<button ng-click='submit'>Register</button>
+					<button>Register</button>
 				</p>
 				
 			</fieldset>
