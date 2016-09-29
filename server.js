@@ -32,7 +32,7 @@ app.use(express.static(path.join(__dirname,"client", "assets")))
 app.use(express.static(path.join(__dirname,"client", "static")))
 
 /*routes*/
-require('./server/config/routes.js')//(app);
+require('./server/config/routes.js')(app);
 
 var port = 8000;
 app.listen(port, function(){
