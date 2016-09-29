@@ -58,3 +58,7 @@ video{
 	height: auto;
 }
 
+.dark-translucent-bg, .dark-translucent-bg h1, .dark-translucent-bg h2, .dark-translucent-bg h3, .dark-translucent-bg h4, .dark-translucent-bg h5, .dark-translucent-bg h6{
+	color:black;
+}
+
