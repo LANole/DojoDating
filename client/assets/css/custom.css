@@ -1,8 +1,10 @@
-body{
-	
+*{
+    padding: 0;
+    margin: 0;
 }
+
 .video-wrap{
-    color:white;
+color:white;
 position: absolute;
 z-index: -1; 
 top: 0px; 
@@ -41,10 +43,10 @@ video{
 	text-align: center;
 }
 
-a{
+.form-signin a{
 	color: white;
 }
-a:hover{
+.form-signin a:hover{
 color: yellow;
 text-decoration: none;
 }
@@ -58,6 +60,38 @@ form-signin-heading{
 }
 .form-signin input{
 	margin-bottom: 5px;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+
+}
+.preferences{
+    height: 1000px;
+    background-image: url('images/back-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.preferences nav{
+    background-color: #B2127D;
+}
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand{
+    color: white;
+}
+.dojo{
+    /*font-family: font-family: 'Source Code Pro', monospace;*/
+}
+.date{
+    /*font-family: font-family: 'Pacifico', cursive;*/
+    color: #FFD9F2;
+}
+.preferences .navbar-inverse .navbar-brand{
+    font-family: font-family: 'Pacifico', cursive;
+}
+.extra-form form{
+    max-width: 330px;
+    margin: 0 auto; 
+}
+.extra-form form input, .extra-form form select{
+    width: 100%;
 }
 
 /*tabbed forms style*/
