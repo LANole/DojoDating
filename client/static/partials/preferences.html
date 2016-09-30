@@ -5,6 +5,12 @@
 		<fieldset>
 			<legend>Yourself</legend>
 			<form id='hobbies' ng-submit="update(user)">
+				<label>You are a: 
+					<select ng-model="user.gender">
+						<option value="Man">Man</option>
+						<option value="Woman">Woman</option>					
+					</select>
+				</label>
 				<label>Looking for: 
 					<select ng-model="user.looking">
 						<option value="Man">Man</option>
@@ -104,22 +110,19 @@
 				</label>				
 				<label>Smoke: 
 					<select ng-model="user.smoke">
-						<option value="Yes">Yes</option>
-						<option value="Occasional">Occasional</option>
-						<option value="No">No</option>						
+						<option value="true">Yes</option>
+						<option value="occasional">Occasional</option>
+						<option value="false">No</option>						
 					</select>
 				</label>
 				<label>Drink: 
 					<select ng-model="user.drink">
-						<option value="Yes">Yes</option>
-						<option value="Occasional">Occasional</option>
-						<option value="No">No</option>						
+						<option value="true">Yes</option>
+						<option value="occasional">Occasional</option>
+						<option value="false">No</option>						
 					</select>
 				</label>
-				<label>City: 
-					<select ng-model="user.city">
-						<option value="city">Find a List</option>						
-					</select>
+				<label>City: <input type="text" ng-model="user.city">					
 				</label>
 				<label>State: 
 					<select ng-model="user.state">
@@ -175,8 +178,10 @@
 						<option value="WI">Wisconsin</option>
 						<option value="WY">Wyoming</option>						
 					</select>
-				</label>				
-			</form>
+				</label>Bio: 
+					<textarea></textarea>
+				<label>
+				</form>
 		</fieldset>
 </div>
 
@@ -188,68 +193,68 @@
 			<form id='hobbies' ng-submit="update(user)">
 				<label>Arts: 
 					<select ng-model="user.arts">
-						<option value="Yes">Love It</option>
-						<option value="No">Not Interested</option>						
+						<option value="true">Love It</option>
+						<option value="false">Not Interested</option>						
 					</select>
 				</label>
 				<label>Auto: 
 					<select ng-model="user.auto">
-						<option value="Yes">Love It</option>
-						<option value="No">Not Interested</option>						
+						<option value="true">Love It</option>
+						<option value="false">Not Interested</option>						
 					</select>
 				</label>
 				<label>Dancing: 
 					<select ng-model="user.dancing">
-						<option value="Yes">Love It</option>
-						<option value="No">Not Interested</option>						
+						<option value="true">Love It</option>
+						<option value="false">Not Interested</option>						
 					</select>
 				</label>
 				<label>Education: 
 					<select ng-model="user.education">
-						<option value="Yes">Love It</option>
-						<option value="No">Not Interested</option>						
+						<option value="true">Love It</option>
+						<option value="false">Not Interested</option>						
 					</select>
 				</label>
 				<label>Food: 
 					<select ng-model="user.food">
-						<option value="Yes">Love It</option>
-						<option value="No">Not Interested</option>						
+						<option value="true">Love It</option>
+						<option value="false">Not Interested</option>						
 					</select>
 				</label>
 				<label>Literature: 
 					<select ng-model="user.literature">
-						<option value="Yes">Love It</option>
-						<option value="No">Not Interested</option>						
+						<option value="true">Love It</option>
+						<option value="false">Not Interested</option>						
 					</select>
 				</label>
 				<label>Music: 
 					<select ng-model="user.music">
-						<option value="Yes">Love It</option>
-						<option value="No">Not Interested</option>						
+						<option value="true">Love It</option>
+						<option value="false">Not Interested</option>						
 					</select>
 				</label>
 				<label>Nature: 
 					<select ng-model="user.nature">
-						<option value="Yes">Love It</option>
-						<option value="No">Not Interested</option>						
+						<option value="true">Love It</option>
+						<option value="false">Not Interested</option>						
 					</select>
 				</label>				
 				<label>OutDoor Activites:
 					<select ng-model="user.outDoor">
-						<option value="Yes">Love It</option>
-						<option value="No">Not Interested</option>						
+						<option value="true">Love It</option>
+						<option value="false">Not Interested</option>						
 					</select> 
 				</label>				
 				<label>Sports: 
 					<select ng-model="user.sports">
-						<option value="Yes">Love It</option>
-						<option value="No">Not Interested</option>						
+						<option value="true">Love It</option>
+						<option value="false">Not Interested</option>						
 					</select>
 				</label>
 				<label>Technology: 
 					<select ng-model="user.technology">
-						<option value="Yes">Love It</option>
-						<option value="No">Not Interested</option>						
+						<option value="true">Love It</option>
+						<option value="false">Not Interested</option>						
 					</select>
 				</label>
 				<p>

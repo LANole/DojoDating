@@ -7,7 +7,7 @@ app.controller('userController', ['$scope', '$location', 'UserFactory', function
 
 	$scope.login = function(user){
 		UserFactory.login(user,function(){
-			$location.url('/show_profile');
+			$location.url('/profile/:id');
 		})
 	}
 	$scope.create = function(user){
@@ -17,7 +17,7 @@ app.controller('userController', ['$scope', '$location', 'UserFactory', function
 	}
 	$scope.update = function(user){		
 		UserFactory.update(user,function(){
-			$location.url('/profile/:id');
+			$location.url('/profile');
 		})
 	}
 }])

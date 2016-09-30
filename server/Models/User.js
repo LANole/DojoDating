@@ -6,6 +6,7 @@ var UserSchema = new mongoose.Schema({
  email: {type: String},
  DOB:{type: Date},
  password: {type: String},
+ gender: {type: String},
  relationship_preferences: {type: String},
  height: {type: Number, minlength: 1},
  weight: {type: Number, minlength: 2},
