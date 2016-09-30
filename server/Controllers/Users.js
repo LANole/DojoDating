@@ -26,5 +26,17 @@ module.exports = {
 
 	loggedIn:function(req, res){
 		res.json(req.session.user)
+	},
+
+	update:function(req, res){
+		console.log("hello");
+		User.findOneAndUpdate({_id: req.body._id}, req.body).exec(function(err, user){
+			if (err){
+				res.sendStatus(500);
+			}else{
+				req.session.user = user;
+				res.send(user);
+			}
+		})
 	}
 }

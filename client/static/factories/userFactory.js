@@ -27,11 +27,12 @@ app.factory('UserFactory', ['$http', function($http){
 				callback(res.data);
 			})
 		},
-		update: function(callback){
+		update: function(user, callback){
 			$http({
 				method:"POST",
-				url:'/profile'
-			}).then(function(user){
+				url:'/profile',
+				data: user
+			}).then(function(res){
 				callback(res.data);
 			})
 		}

@@ -1,35 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Profile</title>
-    <style>
-    *{
-
-        vertical-align: top;
-        margin: 0;
-        padding: 0;
-    }
-        .grey-part{
-            width: 23%;
-            display: inline-block;
-        }
-        main{
-            width: 50%;
-            display: inline-block;
-        }
-        .shop{
-            width: 23%;
-            display: inline-block;
-        }
-    </style>
-</head>
-
 <div ng-controller='userController'>
     <body>
         <aside class="grey-part">
             <p><img src="baby.png" width="50" alt="">Ishu Subedi</p>
-            <input type="text" placeholder="search">
+            <a href="#/search">Search</a>
             <ul>
                 <li>Messages   12</li>
                 <li>Visitors    2</li>
@@ -37,22 +10,36 @@
                 <li>Favorites  </li>
             </ul>
             <h3>Recently visited</h3>
+            <!--images from databe-->
             <img src="faces.png" alt="">
         </aside>
             <main>
-                <div>
+                <div> <!-- this will be on top by their pic-->
                     <img src="baby.png" alt="">
-                    <h2>Emma Stone</h2>
-                    <p>25</p>
-                    <p>female</p>
-                    <p>Burbank, CA</p>
-                    <button>Update info</button>
+                    <h2>{{user.name}}</h2>
+                    <p>{{user.age}}</p>
+                    <p>{{user.gender}}</p>
+                    <p>{{user.city}}, {{user.state}}</p>
+                    <a href="#/create">Edit Profile</a>
                     <img src="details.png" alt="">
                 </div>
-                <div>
-                    <p>93% match</p>
-                    <img src="icons.png" alt="">
-
+                <div id='bio'> <!--about, photo, contact-->
+                  <h1>About Me: </h1>
+                  <p>{{user.bio}}</p>
+                </div>
+                <div id='interest' ng-show="">
+                  <h1>I am interested in meeting who is interested in: </h1>
+                    <p>{{user.arts}}</p>
+                    <p>{{user.auto}}</p>
+                    <p>{{user.dancing}}</p>
+                    <p>{{user.education}}</p>
+                    <p>{{user.food}}</p>
+                    <p>{{user.literature}}</p>
+                    <p>{{user.music}}</p>
+                    <p>{{user.nature}}</p>
+                    <p>{{user.out_activities}}</p>
+                    <p>{{user.sports}}</p>
+                    <p>{{user.technology}}</p>        
                 </div>
             </main>
         <aside class="shop">

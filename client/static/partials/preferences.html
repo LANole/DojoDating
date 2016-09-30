@@ -1,7 +1,8 @@
+
 <div class="container row extra-form" ng-controller='userController'>
     <div class="col-md-6 ">
         <h1>A little about yourself.</h1>
-        <form class="form-group row" id='hobbies' ng-submit="update(user)" pull-left">
+        <form class="form-group row" id='hobbies' ng-submit="update(user)">
             <select ng-model="user.gender" class="custom-select">
                 <option value="">You are a:</option>
                 <option value="man">Man</option>
@@ -80,7 +81,7 @@
                 <option value="Slim">Slim</option>
                 <option value="Athletic">Athletic</option>
                 <option value="Average">Average</option>
-                <option value="Dojo">Dojo Pot Belly</optio>
+                <option value="Dojo">Dojo Pot Belly</option>
                 </select>
 
                 <select ng-model="user.hair" class="custom-select">

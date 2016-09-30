@@ -27,7 +27,7 @@ app.config(function($routeProvider, $httpProvider){  //check http request from s
         .when('/search',{
             templateUrl:'/partials/search.html'
         })
-        .when('/profile/:id',{
+        .when('/profile',{
             templateUrl:'partials/profile.html'
         })
         .otherwise({
